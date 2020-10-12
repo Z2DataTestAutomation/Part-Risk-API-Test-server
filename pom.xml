@@ -2,10 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>io.github.mohabmohie</groupId>
-	<artifactId>using_SHAFT_ENGINE</artifactId>
+	<groupId>Part_Risk_API_SE</groupId>
+	<artifactId>Part_Risk_API</artifactId>
 	<version>4.4.20200921</version>
-	<name>Using SHAFT_ENGINE</name>
+	<name>Z2Data_PR_API</name>
 	<description>This is a sample project to showcase how to get started using SHAFT_Engine, and how to use some of its
         rich features, while applying the best practices for Test Automation project design.
     </description>
