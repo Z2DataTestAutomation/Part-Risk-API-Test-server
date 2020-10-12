@@ -1,0 +1,20 @@
+package Com.APIs.Company;
+
+import static org.hamcrest.Matchers.equalTo;
+
+import org.testng.annotations.Test;
+import static io.restassured.RestAssured.*;
+public class GET_GetCompanyFinancialDataByName_TC004 extends config {
+		
+	@Test
+	public void GetCompanyFinancialDataByName () {
+		given().
+		when().
+		get(url+'/' + "/api/CompanyDataSearch/GetCompanyFinancialDataByName?Apikey=" + API_Key + "&CompanyName=dell")
+		.then().statusCode(200).statusLine(("HTTP/1.1 200 OK")).header("Content-Type", "application/json; charset=utf-8")
+		.body("numFound", equalTo (10));
+		
+		
+	}
+
+}

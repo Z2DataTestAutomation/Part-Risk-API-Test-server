@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-07T13:13:41 EET" name="External_APIs" finished-at="2020-10-07T13:14:25 EET" duration-ms="44211">
+    <groups>
+    </groups>
+    <test started-at="2020-10-07T13:13:41 EET" name="Test" finished-at="2020-10-07T13:14:25 EET" duration-ms="44211">
+      <class name="Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028">
+        <test-method signature="GetCompanyFinancialRatioByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028@3fce8fd9]" started-at="2020-10-07T13:14:07 EET" name="GetCompanyFinancialRatioByCompanyID" finished-at="2020-10-07T13:14:09 EET" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCompanyFinancialRatioByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028 -->
+      <class name="Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020">
+        <test-method signature="CompanyKeyPersonsByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020@23202fce]" started-at="2020-10-07T13:14:15 EET" name="CompanyKeyPersonsByCompanyID" finished-at="2020-10-07T13:14:16 EET" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyKeyPersonsByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020 -->
+      <class name="Com.APIs.Company.GET_CompanyDetailsByName_TC001">
+        <test-method signature="CompanyDetailsByName()[pri:0, instance:Com.APIs.Company.GET_CompanyDetailsByName_TC001@5e21e98f]" started-at="2020-10-07T13:14:00 EET" name="CompanyDetailsByName" finished-at="2020-10-07T13:14:01 EET" duration-ms="1359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyDetailsByName -->
+      </class> <!-- Com.APIs.Company.GET_CompanyDetailsByName_TC001 -->
+      <class name="Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030">
+        <test-method signature="GetCompanyOwnerOfShareByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030@72ade7e3]" started-at="2020-10-07T13:14:04 EET" name="GetCompanyOwnerOfShareByCompanyID" finished-at="2020-10-07T13:14:06 EET" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCompanyOwnerOfShareByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030 -->
+      <class name="Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011">
+        <test-method signature="CompanyPatentDetailsByPatentID()[pri:0, instance:Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011@5f20155b]" started-at="2020-10-07T13:14:03 EET" name="CompanyPatentDetailsByPatentID" finished-at="2020-10-07T13:14:04 EET" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyPatentDetailsByPatentID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011 -->
+      <class name="Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006">
+        <test-method signature="GetCompanyNewsByCompanyID()[pri:0, instance:Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006@609bcfb6]" started-at="2020-10-07T13:14:09 EET" name="GetCompanyNewsByCompanyID" finished-at="2020-10-07T13:14:10 EET" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCompanyNewsByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006 -->
+      <class name="Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007">
+        <test-method signature="CompanyDistributorsByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007@37911f88]" started-at="2020-10-07T13:14:17 EET" name="CompanyDistributorsByCompanyID" finished-at="2020-10-07T13:14:19 EET" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyDistributorsByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007 -->
+      <class name="Com.APIs.Company.GET_SiteProfileBySiteID_TC024">
+        <test-method signature="GetSiteProfileBySiteID()[pri:0, instance:Com.APIs.Company.GET_SiteProfileBySiteID_TC024@4d6025c5]" started-at="2020-10-07T13:14:21 EET" name="GetSiteProfileBySiteID" finished-at="2020-10-07T13:14:23 EET" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetSiteProfileBySiteID -->
+      </class> <!-- Com.APIs.Company.GET_SiteProfileBySiteID_TC024 -->
+      <class name="Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018">
+        <test-method signature="CompanyAcquisitionsByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018@7b993c65]" started-at="2020-10-07T13:14:16 EET" name="CompanyAcquisitionsByCompanyID" finished-at="2020-10-07T13:14:17 EET" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyAcquisitionsByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018 -->
+      <class name="Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010">
+        <test-method signature="CompanyValidationByCompanyName()[pri:0, instance:Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010@189cbd7c]" started-at="2020-10-07T13:13:41 EET" name="CompanyValidationByCompanyName" finished-at="2020-10-07T13:13:44 EET" duration-ms="3438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyValidationByCompanyName -->
+      </class> <!-- Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010 -->
+      <class name="Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016">
+        <test-method signature="CompanyProfileByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016@560348e6]" started-at="2020-10-07T13:14:12 EET" name="CompanyProfileByCompanyID" finished-at="2020-10-07T13:14:13 EET" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyProfileByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016 -->
+      <class name="Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021">
+        <test-method signature="CompanyKeyPersonsByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021@1df8b5b8]" started-at="2020-10-07T13:14:13 EET" name="CompanyKeyPersonsByCompanyID" finished-at="2020-10-07T13:14:15 EET" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyKeyPersonsByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021 -->
+      <class name="Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015">
+        <test-method signature="CompanySupplyChainByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015@7f284218]" started-at="2020-10-07T13:14:23 EET" name="CompanySupplyChainByCompanyID" finished-at="2020-10-07T13:14:25 EET" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanySupplyChainByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015 -->
+      <class name="Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008">
+        <test-method signature="GetCompanyCompetitorsByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008@6f1c29b7]" started-at="2020-10-07T13:14:19 EET" name="GetCompanyCompetitorsByCompanyID" finished-at="2020-10-07T13:14:21 EET" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCompanyCompetitorsByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008 -->
+      <class name="Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012">
+        <test-method signature="CompanyPatentsByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012@7bf3a5d8]" started-at="2020-10-07T13:13:44 EET" name="CompanyPatentsByCompanyID" finished-at="2020-10-07T13:13:46 EET" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyPatentsByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012 -->
+      <class name="Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014">
+        <test-method signature="GetCompanyLitigationsByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014@7d94beb9]" started-at="2020-10-07T13:14:10 EET" name="GetCompanyLitigationsByCompanyID" finished-at="2020-10-07T13:14:12 EET" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCompanyLitigationsByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014 -->
+      <class name="Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026">
+        <test-method signature="CompanyFinancialSegmentCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026@42e25b0b]" started-at="2020-10-07T13:13:46 EET" name="CompanyFinancialSegmentCompanyID" finished-at="2020-10-07T13:13:48 EET" duration-ms="1970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyFinancialSegmentCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026 -->
+      <class name="Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019">
+        <test-method signature="CompanyLocationsByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019@239105a8]" started-at="2020-10-07T13:14:06 EET" name="CompanyLocationsByCompanyID" finished-at="2020-10-07T13:14:07 EET" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyLocationsByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019 -->
+      <class name="Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004">
+        <test-method signature="GetCompanyFinancialDataByName()[pri:0, instance:Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004@39b43d60]" started-at="2020-10-07T13:13:48 EET" name="GetCompanyFinancialDataByName" finished-at="2020-10-07T13:13:49 EET" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCompanyFinancialDataByName -->
+      </class> <!-- Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004 -->
+      <class name="Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002">
+        <test-method signature="CompanyComplianceDataBySupplierName()[pri:0, instance:Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002@44be0077]" started-at="2020-10-07T13:13:49 EET" name="CompanyComplianceDataBySupplierName" finished-at="2020-10-07T13:13:51 EET" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyComplianceDataBySupplierName -->
+      </class> <!-- Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002 -->
+      <class name="Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003">
+        <test-method signature="CompanyDistributorsDataBySupplierName()[pri:0, instance:Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003@2205a05d]" started-at="2020-10-07T13:13:51 EET" name="CompanyDistributorsDataBySupplierName" finished-at="2020-10-07T13:13:53 EET" duration-ms="1803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyDistributorsDataBySupplierName -->
+      </class> <!-- Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003 -->
+      <class name="Com.APIs.Company.GET_CompanyHistoryByCompanyID_017">
+        <test-method signature="GetCompanyHistoryByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyHistoryByCompanyID_017@51a9ad5e]" started-at="2020-10-07T13:14:01 EET" name="GetCompanyHistoryByCompanyID" finished-at="2020-10-07T13:14:03 EET" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCompanyHistoryByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyHistoryByCompanyID_017 -->
+      <class name="Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005">
+        <test-method signature="GetCompanySECFilingDateByCompanyID()[pri:0, instance:Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005@72ef8d15]" started-at="2020-10-07T13:13:53 EET" name="GetCompanySECFilingDateByCompanyID" finished-at="2020-10-07T13:13:57 EET" duration-ms="4401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCompanySECFilingDateByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005 -->
+      <class name="Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025">
+        <test-method signature="CompanyFinancialStatementByCompanyID()[pri:0, instance:Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025@6aa8e115]" started-at="2020-10-07T13:13:57 EET" name="CompanyFinancialStatementByCompanyID" finished-at="2020-10-07T13:14:00 EET" duration-ms="2726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyFinancialStatementByCompanyID -->
+      </class> <!-- Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025 -->
+    </test> <!-- Test -->
+  </suite> <!-- External_APIs -->
+</testng-results>

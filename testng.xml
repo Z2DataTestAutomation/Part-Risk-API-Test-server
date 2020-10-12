@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Internal_APIs">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Com.APIs.PartDataSearch.GetPartDataByKeySearch_TC001"/>
+      <class name="Com.APIs.PartDataSearch.GET_CrossDataByPartId_TC011"/>
+      <class name="Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015"/>
+      <class name="Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016"/>
+      <class name="Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017"/>
+      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028"/>
+      <class name="Com.APIs.PartDataSearch.GET_PartDataByPartId_TC003"/>
+      <class name="Com.APIs.PartDataSearch.GET_PartValidation_TC010"/>
+      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_GeneralKey_TC026"/>
+      <class name="Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014"/>
+      <class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_EmptyInput_TC008"/>
+      <class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearch_TC006"/>
+      <class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_TC007"/>
+      <class name="Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022"/>
+      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_TC027"/>
+      <class name="Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_PartConfig_TC019"/>
+      <class name="Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013"/>
+      <class name="Com.APIs.PartDataSearch.GET_ProductLineList_TC0012"/>
+      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025"/>
+      <class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009"/>
+      <class name="Com.APIs.PartDataSearch.GET_ChemicalDataByPartID_TC020"/>
+      <class name="Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029"/>
+      <class name="Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021"/>
+      <class name="Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004"/>
+      <class name="Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030"/>
+      <class name="Com.APIs.PartDataSearch.GetPartDataByPartId_PartConfig_Duplicate_TC005"/>
+      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023"/>
+      <class name="Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Internal_APIs -->

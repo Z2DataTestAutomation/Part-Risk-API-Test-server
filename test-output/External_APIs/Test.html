@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 07 13:13:41 EET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>44 seconds (44211 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018.CompanyAcquisitionsByCompanyID()'><b>CompanyAcquisitionsByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018@7b993c65</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002.CompanyComplianceDataBySupplierName()'><b>CompanyComplianceDataBySupplierName</b><br>Test class: Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002@44be0077</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyDetailsByName_TC001.CompanyDetailsByName()'><b>CompanyDetailsByName</b><br>Test class: Com.APIs.Company.GET_CompanyDetailsByName_TC001</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyDetailsByName_TC001@5e21e98f</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007.CompanyDistributorsByCompanyID()'><b>CompanyDistributorsByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007@37911f88</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003.CompanyDistributorsDataBySupplierName()'><b>CompanyDistributorsDataBySupplierName</b><br>Test class: Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003@2205a05d</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026.CompanyFinancialSegmentCompanyID()'><b>CompanyFinancialSegmentCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026@42e25b0b</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025.CompanyFinancialStatementByCompanyID()'><b>CompanyFinancialStatementByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025</td>
+<td></td>
+<td>2</td>
+<td>Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025@6aa8e115</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021.CompanyKeyPersonsByCompanyID()'><b>CompanyKeyPersonsByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021@1df8b5b8</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020.CompanyKeyPersonsByCompanyID()'><b>CompanyKeyPersonsByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020@23202fce</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019.CompanyLocationsByCompanyID()'><b>CompanyLocationsByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019@239105a8</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011.CompanyPatentDetailsByPatentID()'><b>CompanyPatentDetailsByPatentID</b><br>Test class: Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011@5f20155b</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012.CompanyPatentsByCompanyID()'><b>CompanyPatentsByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012@7bf3a5d8</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016.CompanyProfileByCompanyID()'><b>CompanyProfileByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016@560348e6</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015.CompanySupplyChainByCompanyID()'><b>CompanySupplyChainByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015@7f284218</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010.CompanyValidationByCompanyName()'><b>CompanyValidationByCompanyName</b><br>Test class: Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010</td>
+<td></td>
+<td>3</td>
+<td>Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010@189cbd7c</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008.GetCompanyCompetitorsByCompanyID()'><b>GetCompanyCompetitorsByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008</td>
+<td></td>
+<td>2</td>
+<td>Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008@6f1c29b7</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004.GetCompanyFinancialDataByName()'><b>GetCompanyFinancialDataByName</b><br>Test class: Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004@39b43d60</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028.GetCompanyFinancialRatioByCompanyID()'><b>GetCompanyFinancialRatioByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028@3fce8fd9</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyHistoryByCompanyID_017.GetCompanyHistoryByCompanyID()'><b>GetCompanyHistoryByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyHistoryByCompanyID_017</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyHistoryByCompanyID_017@51a9ad5e</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014.GetCompanyLitigationsByCompanyID()'><b>GetCompanyLitigationsByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014@7d94beb9</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006.GetCompanyNewsByCompanyID()'><b>GetCompanyNewsByCompanyID</b><br>Test class: Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006@609bcfb6</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030.GetCompanyOwnerOfShareByCompanyID()'><b>GetCompanyOwnerOfShareByCompanyID</b><br>Test class: Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030@72ade7e3</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005.GetCompanySECFilingDateByCompanyID()'><b>GetCompanySECFilingDateByCompanyID</b><br>Test class: Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005</td>
+<td></td>
+<td>4</td>
+<td>Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005@72ef8d15</td></tr>
+<tr>
+<td title='Com.APIs.Company.GET_SiteProfileBySiteID_TC024.GetSiteProfileBySiteID()'><b>GetSiteProfileBySiteID</b><br>Test class: Com.APIs.Company.GET_SiteProfileBySiteID_TC024</td>
+<td></td>
+<td>1</td>
+<td>Com.APIs.Company.GET_SiteProfileBySiteID_TC024@4d6025c5</td></tr>
+</table><p>
+</body>
+</html>
