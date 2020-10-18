@@ -25,9 +25,25 @@
 			<artifactId>SHAFT_ENGINE</artifactId>
 			<version>${shaft_engine.version}</version>
 		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>com.google.appengine</groupId>
+				<artifactId>appengine-maven-plugin</artifactId>
+				<version>1.9.32</version>
+				<configuration>
+					<enableJarClasses>false</enableJarClasses>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>endpoints_get_discovery_doc</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
