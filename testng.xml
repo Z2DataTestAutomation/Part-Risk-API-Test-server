@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-        <suite name="External_APIs">
+        <suite name="PartRisk_External\Internal_APIs">
             <test thread-count="5" name="Test">
                 <classes>
                     <class name="Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010"/>
