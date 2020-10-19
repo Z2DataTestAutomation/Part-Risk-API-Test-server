@@ -25,7 +25,6 @@
 			<artifactId>SHAFT_ENGINE</artifactId>
 			<version>${shaft_engine.version}</version>
 		</dependency>
-
 	</dependencies>
 	<build>
 		<plugins>
