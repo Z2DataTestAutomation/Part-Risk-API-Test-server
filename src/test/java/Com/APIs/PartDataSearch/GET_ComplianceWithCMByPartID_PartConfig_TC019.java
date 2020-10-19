@@ -15,8 +15,7 @@ public class GET_ComplianceWithCMByPartID_PartConfig_TC019 extends config{
 		given().when()
 		.get(url + '/' + "/api/PartDataSearch/GetComplianceWithCMByPartID?Apikey=" + ViaSatAPIKey
 				+ "&PartID=1000078207")
-		.then().assertThat().body("results.partID[0]", Is.is(1000078207)).and()
-		.body("results.partNumber[0]", Is.is("RTT0122R6FTH")).statusCode(200).statusLine("HTTP/1.1 200 OK")
+		.then().assertThat().statusCode(200).statusLine("HTTP/1.1 200 OK")
 		.header("content-Type", "application/json; charset=utf-8").log().all();
 	}
 

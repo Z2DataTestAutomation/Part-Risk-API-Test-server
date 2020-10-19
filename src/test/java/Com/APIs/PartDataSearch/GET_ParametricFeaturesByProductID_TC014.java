@@ -15,8 +15,7 @@ public class GET_ParametricFeaturesByProductID_TC014 extends config {
 		given().when()
 				.get(url + '/' + "/api/PartDataSearch/GetParametricFeaturesByProductID?Apikey=" + API_Key
 						+ "&ProductID=4404")
-				.then().assertThat().body("results.ProductID[0]", Is.is(4404)).and()
-				.body("results.ProductName[0]", Is.is("0.94")).statusCode(200).statusLine("HTTP/1.1 200 OK")
+				.then().assertThat().statusCode(200).statusLine("HTTP/1.1 200 OK")
 				.header("content-Type", "application/json; charset=utf-8").log().all();
 	}
 

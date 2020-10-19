@@ -12,8 +12,8 @@ public class GET_PartDataByPartId_PartConfig_TC004 extends config {
 	public void PartDataByPartId_PartConfig () {
 		
 		given().when().get(url + '/' + "/api/PartDataSearch/GetPartDataByPartId?PartId=1000078207&Apikey=" + API_Key)
-		.then().assertThat().body("results.partSummaryData.partID[0]", Is.is(1000078207)).and().body("results.partSummaryData.partNumber[0]",Is.is("RTT0122R6FTH"))
-		.statusLine("HTTP/1.1 200 OK").header("content-Type", "application/json; charset=utf-8").log().all();
+				.then().assertThat().statusCode(200)
+				.statusLine("HTTP/1.1 200 OK").header("content-Type", "application/json; charset=utf-8").log().all();
 	}
 	
 

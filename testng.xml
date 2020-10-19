@@ -1,36 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Internal_APIs">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="Com.APIs.PartDataSearch.GetPartDataByKeySearch_TC001"/>
-      <class name="Com.APIs.PartDataSearch.GET_CrossDataByPartId_TC011"/>
-      <class name="Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015"/>
-      <class name="Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016"/>
-      <class name="Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017"/>
-      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028"/>
-      <class name="Com.APIs.PartDataSearch.GET_PartDataByPartId_TC003"/>
-      <class name="Com.APIs.PartDataSearch.GET_PartValidation_TC010"/>
-      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_GeneralKey_TC026"/>
-      <class name="Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014"/>
-      <class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_EmptyInput_TC008"/>
-      <class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearch_TC006"/>
-      <class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_TC007"/>
-      <class name="Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022"/>
-      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_TC027"/>
-      <class name="Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_PartConfig_TC019"/>
-      <class name="Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013"/>
-      <class name="Com.APIs.PartDataSearch.GET_ProductLineList_TC0012"/>
-      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025"/>
-      <class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009"/>
-      <class name="Com.APIs.PartDataSearch.GET_ChemicalDataByPartID_TC020"/>
-      <class name="Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029"/>
-      <class name="Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021"/>
-      <class name="Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004"/>
-      <class name="Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030"/>
-      <class name="Com.APIs.PartDataSearch.GetPartDataByPartId_PartConfig_Duplicate_TC005"/>
-      <class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023"/>
-      <class name="Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Internal_APIs -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Part Risk API Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/Part-Risk-API/src/test/java/Com/APIs">
+        <classes>
+            <class name="Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018">
+            <methods>
+                <include name="CompanyAcquisitionsByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008">
+            <methods>
+                <include name="GetCompanyCompetitorsByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002">
+            <methods>
+                <include name="CompanyComplianceDataBySupplierName"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyDetailsByName_TC001">
+            <methods>
+                <include name="CompanyDetailsByName"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyDirectorsByCompanyID_TC022">
+            <methods>
+                <include name="CompanyDirectorsByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007">
+            <methods>
+                <include name="CompanyDistributorsByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003">
+            <methods>
+                <include name="CompanyDistributorsDataBySupplierName"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyExecutivesByCompanyID_TC023">
+            <methods>
+                <include name="GetCompanyExecutivesByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyFinancialKeyStatsByCompanyID_TC029">
+                <methods>
+                    <include name="GetCompanyFinancialKeyStatsByCompanyID"/>
+                </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028">
+            <methods>
+                <include name="GetCompanyFinancialRatioByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026">
+            <methods>
+                <include name="CompanyFinancialSegmentCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025">
+            <methods>
+                <include name="CompanyFinancialStatementByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyHistoryByCompanyID_017">
+            <methods>
+                <include name="GetCompanyHistoryByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020">
+            <methods>
+                <include name="CompanyKeyPersonsByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021">
+            <methods>
+                <include name="CompanyKeyPersonsByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014">
+            <methods>
+                <include name="GetCompanyLitigationsByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019">
+            <methods>
+                <include name="CompanyLocationsByCompanyID"/>
+            </methods>
+            </class>
+            <class name="Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030">
+            <methods><include name="GetCompanyOwnerOfShareByCompanyID"/>
+            </methods></class><class name="Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011">
+            <methods><include name="CompanyPatentDetailsByPatentID"/>
+            </methods></class><class name="Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012">
+            <methods><include name="CompanyPatentsByCompanyID"/>
+            </methods></class><class name="Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016">
+            <methods><include name="CompanyProfileByCompanyID"/>
+            </methods></class><class name="Com.APIs.Company.GET_CompanyRelationshipsByCompanyID_TC009">
+            <methods><include name="CompanyRelationshipsByCompanyID"/>
+            </methods></class><class name="Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015">
+            <methods><include name="CompanySupplyChainByCompanyID"/>
+            </methods></class><class name="Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010">
+            <methods><include name="CompanyValidationByCompanyName"/>
+            </methods></class><class name="Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004">
+            <methods><include name="GetCompanyFinancialDataByName"/>
+            </methods></class><class name="Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006">
+            <methods><include name="GetCompanyNewsByCompanyID"/>
+            </methods></class><class name="Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005">
+            <methods><include name="GetCompanySECFilingDateByCompanyID"/>
+            </methods></class><class name="Com.APIs.Company.GET_Litigation_Details_SelectByLitigationID_TC013">
+            <methods><include name="Litigation_Details_SelectByLitigationID"/>
+            </methods></class><class name="Com.APIs.Company.GET_SiteProfileBySiteID_TC024">
+            <methods><include name="GetSiteProfileBySiteID"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_ChemicalDataByPartID_TC020">
+            <methods><include name="GetChemicalDataByPartID"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021">
+            <methods><include name="GComplianceDatainXMLByPartId"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_PartConfig_TC019">
+            <methods><include name="ComplianceWithCMByPartID_PartConfig"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017">
+            <methods><include name="ComplianceWithCMByPartID"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_CrossDataByPartId_TC011">
+            <methods><include name="GetCrossDataByPartId"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015">
+            <methods><include name="InventoryDetailsByPartId"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014">
+            <methods><include name="ParametricFeaturesByProductID"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002">
+            <methods><include name="PartDataByKeySearch_PartConfig"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004">
+            <methods><include name="PartDataByPartId_PartConfig"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_PartDataByPartId_TC003">
+            <methods><include name="PartDataByPartId"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_EmptyInput_TC008">
+            <methods><include name="PartDetailsBySearchCustom_EmptyInput"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009">
+            <methods><include name="PartDetailsBySearchCustom_PartID"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_TC007">
+            <methods><include name="PartDetailsBySearchCustom"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_PartDetailsBySearch_TC006">
+            <methods><include name="PartDetailsBySearch"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_PartValidation_TC010">
+            <methods><include name="PartValidation"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_ProductLineList_TC0012">
+            <methods><include name="ProductLineList"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016">
+            <methods><include name="_UpdatedPartDataWithinDateRange"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013">
+            <methods><include name="UpdatedPartWithinDateRange"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GetPartDataByKeySearch_TC001">
+            <methods><include name="PartDataByKeySearch"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.GetPartDataByPartId_PartConfig_Duplicate_TC005">
+            <methods><include name="PartDataByPartId_PartConfig_Duplicate_parametric"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023">
+            <methods><include name="ModifyUploadedParts_ADD_GenralKey"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025">
+            <methods><include name="ModifyUploadedParts_ADD_WithoutDynamicData"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_GeneralKey_TC026">
+            <methods><include name="POST_ModifyUploadedParts_DELETE_GeneralKey"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_TC027">
+            <methods><include name="ModifyUploadedParts_DELETE"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028">
+            <methods><include name="ModifyUploadedParts_DELETE_WithoutDynamicData"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022">
+            <methods><include name="POST_PartDataWithParametricFilters"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030">
+            <methods><include name="ValidateUploadedParts_NotFoundStatus"/>
+            </methods></class><class name="Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029">
+            <methods>
+                <include name="ValidateUploadedParts"/>
+                <include name="ValidateUploadedParts2"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>

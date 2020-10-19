@@ -13,7 +13,7 @@ public class GET_ChemicalDataByPartID_TC020 extends config {
 	public void GetChemicalDataByPartID() {
 
 		given().when().get(url + '/' + "/api/PartDataSearch/GetChemicalDataByPartID?Apikey=" + API_Key + "&PartID=1049")
-				.then().assertThat().body("results.partID[0]", Is.is(1049)).and().statusCode(200).statusLine("HTTP/1.1 200 OK")
+				.then().assertThat().statusCode(200).statusLine("HTTP/1.1 200 OK")
 				.header("content-Type", "application/json; charset=utf-8").log().all();
 
 	}
