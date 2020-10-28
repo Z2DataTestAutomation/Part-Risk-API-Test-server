@@ -1,0 +1,12 @@
+{
+  "uuid": "c6d0ed5a-766f-43ec-a5b2-dc0f394c89bb",
+  "name": "Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014",
+  "children": [
+    "d28d4f4d-7a49-4eaa-a155-7667eba2c5d3"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459557,
+  "stop": 1603882610704
+}

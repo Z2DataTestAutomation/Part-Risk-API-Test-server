@@ -1,0 +1,12 @@
+{
+  "uuid": "4d095bf6-0fcc-4b01-9a68-35442db4a5dc",
+  "name": "Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014",
+  "children": [
+    "e184e3d3-9b13-4145-8cc4-1fcda8aae552"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459559,
+  "stop": 1603882610779
+}

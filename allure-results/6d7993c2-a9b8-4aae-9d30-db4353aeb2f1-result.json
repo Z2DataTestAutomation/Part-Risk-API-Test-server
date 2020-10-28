@@ -1,0 +1,61 @@
+{
+  "name": "CompanyPatentDetailsByPatentID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882508617,
+  "stop": 1603882510597,
+  "uuid": "6d7993c2-a9b8-4aae-9d30-db4353aeb2f1",
+  "historyId": "b34aadbdca6c5b99a75725920705bec7",
+  "fullName": "Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011.CompanyPatentDetailsByPatentID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011"
+    },
+    {
+      "name": "testMethod",
+      "value": "CompanyPatentDetailsByPatentID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

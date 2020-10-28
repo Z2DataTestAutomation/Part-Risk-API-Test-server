@@ -1,0 +1,12 @@
+{
+  "uuid": "d39162c3-6dbc-477e-99bb-06d78be4c8c0",
+  "name": "Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008",
+  "children": [
+    "a362d2c5-5422-422d-babc-71df4c335fff"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459556,
+  "stop": 1603882610626
+}

@@ -1,0 +1,74 @@
+{
+  "uid": "438da849c5ba2a08",
+  "name": "GetCompanyFinancialRatioByCompanyID",
+  "fullName": "Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028.GetCompanyFinancialRatioByCompanyID",
+  "historyId": "f51a2655700736684e10ff6efec84b0d",
+  "time": {
+    "start": 1603882487800,
+    "stop": 1603882490173,
+    "duration": 2373
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetCompanyFinancialRatioByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "438da849c5ba2a08.json",
+  "parameterValues": []
+}

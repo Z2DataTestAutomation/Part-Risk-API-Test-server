@@ -1,0 +1,12 @@
+{
+  "uuid": "5aebf687-37cd-4b12-a240-a6d81337bc68",
+  "name": "Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018",
+  "children": [
+    "c51fc7ac-455b-40ee-a5fb-1259f060ea67"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882421366,
+  "stop": 1603882430896
+}

@@ -1,0 +1,61 @@
+{
+  "name": "_UpdatedPartDataWithinDateRange",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882582304,
+  "stop": 1603882585714,
+  "uuid": "68f01ddd-e8f6-47e9-8790-ff18aeccc24b",
+  "historyId": "bcc7e14a739dd9f0c4d8b85a91babaf5",
+  "fullName": "Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016._UpdatedPartDataWithinDateRange",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016"
+    },
+    {
+      "name": "testMethod",
+      "value": "_UpdatedPartDataWithinDateRange"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

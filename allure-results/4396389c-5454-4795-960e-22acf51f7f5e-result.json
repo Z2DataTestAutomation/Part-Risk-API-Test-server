@@ -1,0 +1,61 @@
+{
+  "name": "ValidateUploadedParts_NotFoundStatus",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882604968,
+  "stop": 1603882606854,
+  "uuid": "4396389c-5454-4795-960e-22acf51f7f5e",
+  "historyId": "7c180919368009e0e7fe14ffb38be1e5",
+  "fullName": "Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030.ValidateUploadedParts_NotFoundStatus",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030"
+    },
+    {
+      "name": "testMethod",
+      "value": "ValidateUploadedParts_NotFoundStatus"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

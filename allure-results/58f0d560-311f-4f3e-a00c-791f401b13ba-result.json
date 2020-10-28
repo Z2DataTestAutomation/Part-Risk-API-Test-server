@@ -1,0 +1,61 @@
+{
+  "name": "Litigation_Details_SelectByLitigationID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882545131,
+  "stop": 1603882547149,
+  "uuid": "58f0d560-311f-4f3e-a00c-791f401b13ba",
+  "historyId": "fe25f648bef67bcc0dd29e9671a4ebf9",
+  "fullName": "Com.APIs.Company.GET_Litigation_Details_SelectByLitigationID_TC013.Litigation_Details_SelectByLitigationID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_Litigation_Details_SelectByLitigationID_TC013"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_Litigation_Details_SelectByLitigationID_TC013"
+    },
+    {
+      "name": "testMethod",
+      "value": "Litigation_Details_SelectByLitigationID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_Litigation_Details_SelectByLitigationID_TC013"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

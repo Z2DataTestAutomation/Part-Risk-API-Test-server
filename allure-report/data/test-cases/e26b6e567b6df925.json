@@ -1,0 +1,74 @@
+{
+  "uid": "e26b6e567b6df925",
+  "name": "GetCompanyFinancialKeyStatsByCompanyID",
+  "fullName": "Com.APIs.Company.GET_CompanyFinancialKeyStatsByCompanyID_TC029.GetCompanyFinancialKeyStatsByCompanyID",
+  "historyId": "88694e7c03e78ce1745425a5d4d2b0ff",
+  "time": {
+    "start": 1603882484738,
+    "stop": 1603882487760,
+    "duration": 3022
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyFinancialKeyStatsByCompanyID_TC029"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyFinancialKeyStatsByCompanyID_TC029"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetCompanyFinancialKeyStatsByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyFinancialKeyStatsByCompanyID_TC029"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "e26b6e567b6df925.json",
+  "parameterValues": []
+}

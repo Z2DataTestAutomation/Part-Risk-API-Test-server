@@ -1,0 +1,61 @@
+{
+  "name": "PartDataByPartId_PartConfig",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882552494,
+  "stop": 1603882555080,
+  "uuid": "744496b1-d4ef-4be3-afb5-33153c2464f0",
+  "historyId": "77a27164331427a63edecf0d3a414fc7",
+  "fullName": "Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004.PartDataByPartId_PartConfig",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004"
+    },
+    {
+      "name": "testMethod",
+      "value": "PartDataByPartId_PartConfig"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

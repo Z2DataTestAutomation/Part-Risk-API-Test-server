@@ -1,0 +1,12 @@
+{
+  "uuid": "66ba1f63-edb8-474f-8e0f-428b5ead0bec",
+  "name": "Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016",
+  "children": [
+    "c8f48640-643a-4055-b528-b7151be3182f"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459557,
+  "stop": 1603882610724
+}

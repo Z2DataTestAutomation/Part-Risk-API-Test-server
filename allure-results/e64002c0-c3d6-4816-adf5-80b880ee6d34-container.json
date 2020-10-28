@@ -1,0 +1,12 @@
+{
+  "uuid": "e64002c0-c3d6-4816-adf5-80b880ee6d34",
+  "name": "Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012",
+  "children": [
+    "82d1ef4a-6e8b-43d7-88b3-8b99039976e0"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459557,
+  "stop": 1603882610721
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "58289910-c958-4247-9ecf-1e99eb240756",
+  "name": "Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013",
+  "children": [
+    "fd3f7bf9-91a6-48b2-aa1c-0a0589dcfdea"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459559,
+  "stop": 1603882610829
+}

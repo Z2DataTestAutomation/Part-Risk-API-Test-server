@@ -1,41 +1,436 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<title>TestNG Report</title>
-<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <title>TestNG Report</title>
+    <style type="text/css">table {
+        margin-bottom: 10px;
+        border-collapse: collapse;
+        empty-cells: show
+    }
+
+    th, td {
+        border: 1px solid #009;
+        padding: .25em .5em
+    }
+
+    th {
+        vertical-align: bottom
+    }
+
+    td {
+        vertical-align: top
+    }
+
+    table a {
+        font-weight: bold
+    }
+
+    .stripe td {
+        background-color: #E6EBF9
+    }
+
+    .num {
+        text-align: right
+    }
+
+    .passedodd td {
+        background-color: #3F3
+    }
+
+    .passedeven td {
+        background-color: #0A0
+    }
+
+    .skippedodd td {
+        background-color: #DDD
+    }
+
+    .skippedeven td {
+        background-color: #CCC
+    }
+
+    .failedodd td, .attn {
+        background-color: #F33
+    }
+
+    .failedeven td, .stripe .attn {
+        background-color: #D00
+    }
+
+    .stacktrace {
+        white-space: pre;
+        font-family: monospace
+    }
+
+    .totop {
+        font-size: 85%;
+        text-align: center;
+        border-bottom: 2px solid #000
+    }
+
+    .invisible {
+        display: none
+    }</style>
 </head>
 <body>
 <table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">External_APIs</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">24</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">44,211</td><td></td><td></td></tr>
+    <tr>
+        <th>Test</th>
+        <th># Passed</th>
+        <th># Skipped</th>
+        <th># Retried</th>
+        <th># Failed</th>
+        <th>Time (ms)</th>
+        <th>Included Groups</th>
+        <th>Excluded Groups</th>
+    </tr>
+    <tr>
+        <th colspan="8">External_APIs</th>
+    </tr>
+    <tr>
+        <td><a href="#t0">Test</a></td>
+        <td class="num">24</td>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="num">44,211</td>
+        <td></td>
+        <td></td>
+    </tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">External_APIs</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018</td><td><a href="#m0">CompanyAcquisitionsByCompanyID</a></td><td rowspan="1">1602069256443</td><td rowspan="1">1347</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008</td><td><a href="#m1">GetCompanyCompetitorsByCompanyID</a></td><td rowspan="1">1602069259747</td><td rowspan="1">2180</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002</td><td><a href="#m2">CompanyComplianceDataBySupplierName</a></td><td rowspan="1">1602069229794</td><td rowspan="1">1605</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyDetailsByName_TC001</td><td><a href="#m3">CompanyDetailsByName</a></td><td rowspan="1">1602069240375</td><td rowspan="1">1359</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007</td><td><a href="#m4">CompanyDistributorsByCompanyID</a></td><td rowspan="1">1602069257792</td><td rowspan="1">1952</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003</td><td><a href="#m5">CompanyDistributorsDataBySupplierName</a></td><td rowspan="1">1602069231415</td><td rowspan="1">1803</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028</td><td><a href="#m6">GetCompanyFinancialRatioByCompanyID</a></td><td rowspan="1">1602069247710</td><td rowspan="1">1634</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026</td><td><a href="#m7">CompanyFinancialSegmentCompanyID</a></td><td rowspan="1">1602069226218</td><td rowspan="1">1970</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025</td><td><a href="#m8">CompanyFinancialStatementByCompanyID</a></td><td rowspan="1">1602069237645</td><td rowspan="1">2726</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyHistoryByCompanyID_017</td><td><a href="#m9">GetCompanyHistoryByCompanyID</a></td><td rowspan="1">1602069241739</td><td rowspan="1">1497</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020</td><td><a href="#m10">CompanyKeyPersonsByCompanyID</a></td><td rowspan="1">1602069255097</td><td rowspan="1">1343</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021</td><td><a href="#m11">CompanyKeyPersonsByCompanyID</a></td><td rowspan="1">1602069253509</td><td rowspan="1">1585</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014</td><td><a href="#m12">GetCompanyLitigationsByCompanyID</a></td><td rowspan="1">1602069250702</td><td rowspan="1">1452</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019</td><td><a href="#m13">CompanyLocationsByCompanyID</a></td><td rowspan="1">1602069246035</td><td rowspan="1">1650</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030</td><td><a href="#m14">GetCompanyOwnerOfShareByCompanyID</a></td><td rowspan="1">1602069244611</td><td rowspan="1">1420</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011</td><td><a href="#m15">CompanyPatentDetailsByPatentID</a></td><td rowspan="1">1602069243239</td><td rowspan="1">1368</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012</td><td><a href="#m16">CompanyPatentsByCompanyID</a></td><td rowspan="1">1602069224570</td><td rowspan="1">1644</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016</td><td><a href="#m17">CompanyProfileByCompanyID</a></td><td rowspan="1">1602069252161</td><td rowspan="1">1345</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015</td><td><a href="#m18">CompanySupplyChainByCompanyID</a></td><td rowspan="1">1602069263762</td><td rowspan="1">1491</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010</td><td><a href="#m19">CompanyValidationByCompanyName</a></td><td rowspan="1">1602069221072</td><td rowspan="1">3438</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004</td><td><a href="#m20">GetCompanyFinancialDataByName</a></td><td rowspan="1">1602069228192</td><td rowspan="1">1600</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006</td><td><a href="#m21">GetCompanyNewsByCompanyID</a></td><td rowspan="1">1602069249347</td><td rowspan="1">1353</td></tr><tr class="passedeven"><td rowspan="1">Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005</td><td><a href="#m22">GetCompanySECFilingDateByCompanyID</a></td><td rowspan="1">1602069233237</td><td rowspan="1">4401</td></tr><tr class="passedodd"><td rowspan="1">Com.APIs.Company.GET_SiteProfileBySiteID_TC024</td><td><a href="#m23">GetSiteProfileBySiteID</a></td><td rowspan="1">1602069261931</td><td rowspan="1">1827</td></tr></tbody>
+<table id='summary'>
+    <thead>
+    <tr>
+        <th>Class</th>
+        <th>Method</th>
+        <th>Start</th>
+        <th>Time (ms)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th colspan="4">External_APIs</th>
+    </tr>
+    </tbody>
+    <tbody id="t0">
+    <tr>
+        <th colspan="4">Test &#8212; passed</th>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018</td>
+        <td><a href="#m0">CompanyAcquisitionsByCompanyID</a></td>
+        <td rowspan="1">1602069256443</td>
+        <td rowspan="1">1347</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008</td>
+        <td><a href="#m1">GetCompanyCompetitorsByCompanyID</a></td>
+        <td rowspan="1">1602069259747</td>
+        <td rowspan="1">2180</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002</td>
+        <td><a href="#m2">CompanyComplianceDataBySupplierName</a></td>
+        <td rowspan="1">1602069229794</td>
+        <td rowspan="1">1605</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyDetailsByName_TC001</td>
+        <td><a href="#m3">CompanyDetailsByName</a></td>
+        <td rowspan="1">1602069240375</td>
+        <td rowspan="1">1359</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007</td>
+        <td><a href="#m4">CompanyDistributorsByCompanyID</a></td>
+        <td rowspan="1">1602069257792</td>
+        <td rowspan="1">1952</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003</td>
+        <td><a href="#m5">CompanyDistributorsDataBySupplierName</a></td>
+        <td rowspan="1">1602069231415</td>
+        <td rowspan="1">1803</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028</td>
+        <td><a href="#m6">GetCompanyFinancialRatioByCompanyID</a></td>
+        <td rowspan="1">1602069247710</td>
+        <td rowspan="1">1634</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026</td>
+        <td><a href="#m7">CompanyFinancialSegmentCompanyID</a></td>
+        <td rowspan="1">1602069226218</td>
+        <td rowspan="1">1970</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025</td>
+        <td><a href="#m8">CompanyFinancialStatementByCompanyID</a></td>
+        <td rowspan="1">1602069237645</td>
+        <td rowspan="1">2726</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyHistoryByCompanyID_017</td>
+        <td><a href="#m9">GetCompanyHistoryByCompanyID</a></td>
+        <td rowspan="1">1602069241739</td>
+        <td rowspan="1">1497</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020</td>
+        <td><a href="#m10">CompanyKeyPersonsByCompanyID</a></td>
+        <td rowspan="1">1602069255097</td>
+        <td rowspan="1">1343</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021</td>
+        <td><a href="#m11">CompanyKeyPersonsByCompanyID</a></td>
+        <td rowspan="1">1602069253509</td>
+        <td rowspan="1">1585</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014</td>
+        <td><a href="#m12">GetCompanyLitigationsByCompanyID</a></td>
+        <td rowspan="1">1602069250702</td>
+        <td rowspan="1">1452</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019</td>
+        <td><a href="#m13">CompanyLocationsByCompanyID</a></td>
+        <td rowspan="1">1602069246035</td>
+        <td rowspan="1">1650</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030</td>
+        <td><a href="#m14">GetCompanyOwnerOfShareByCompanyID</a></td>
+        <td rowspan="1">1602069244611</td>
+        <td rowspan="1">1420</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011</td>
+        <td><a href="#m15">CompanyPatentDetailsByPatentID</a></td>
+        <td rowspan="1">1602069243239</td>
+        <td rowspan="1">1368</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012</td>
+        <td><a href="#m16">CompanyPatentsByCompanyID</a></td>
+        <td rowspan="1">1602069224570</td>
+        <td rowspan="1">1644</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016</td>
+        <td><a href="#m17">CompanyProfileByCompanyID</a></td>
+        <td rowspan="1">1602069252161</td>
+        <td rowspan="1">1345</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015</td>
+        <td><a href="#m18">CompanySupplyChainByCompanyID</a></td>
+        <td rowspan="1">1602069263762</td>
+        <td rowspan="1">1491</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010</td>
+        <td><a href="#m19">CompanyValidationByCompanyName</a></td>
+        <td rowspan="1">1602069221072</td>
+        <td rowspan="1">3438</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004</td>
+        <td><a href="#m20">GetCompanyFinancialDataByName</a></td>
+        <td rowspan="1">1602069228192</td>
+        <td rowspan="1">1600</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006</td>
+        <td><a href="#m21">GetCompanyNewsByCompanyID</a></td>
+        <td rowspan="1">1602069249347</td>
+        <td rowspan="1">1353</td>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="1">Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005</td>
+        <td><a href="#m22">GetCompanySECFilingDateByCompanyID</a></td>
+        <td rowspan="1">1602069233237</td>
+        <td rowspan="1">4401</td>
+    </tr>
+    <tr class="passedodd">
+        <td rowspan="1">Com.APIs.Company.GET_SiteProfileBySiteID_TC024</td>
+        <td><a href="#m23">GetSiteProfileBySiteID</a></td>
+        <td rowspan="1">1602069261931</td>
+        <td rowspan="1">1827</td>
+    </tr>
+    </tbody>
 </table>
-<h2>Test</h2><h3 id="m0">Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018#CompanyAcquisitionsByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008#GetCompanyCompetitorsByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002#CompanyComplianceDataBySupplierName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Com.APIs.Company.GET_CompanyDetailsByName_TC001#CompanyDetailsByName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007#CompanyDistributorsByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003#CompanyDistributorsDataBySupplierName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028#GetCompanyFinancialRatioByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026#CompanyFinancialSegmentCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025#CompanyFinancialStatementByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">Com.APIs.Company.GET_CompanyHistoryByCompanyID_017#GetCompanyHistoryByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020#CompanyKeyPersonsByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021#CompanyKeyPersonsByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014#GetCompanyLitigationsByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019#CompanyLocationsByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030#GetCompanyOwnerOfShareByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011#CompanyPatentDetailsByPatentID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012#CompanyPatentsByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m17">Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016#CompanyProfileByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m18">Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015#CompanySupplyChainByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m19">Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010#CompanyValidationByCompanyName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m20">Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004#GetCompanyFinancialDataByName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m21">Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006#GetCompanyNewsByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m22">Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005#GetCompanySECFilingDateByCompanyID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m23">Com.APIs.Company.GET_SiteProfileBySiteID_TC024#GetSiteProfileBySiteID</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2>
+<h3 id="m0">Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018#CompanyAcquisitionsByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008#GetCompanyCompetitorsByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002#CompanyComplianceDataBySupplierName</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Com.APIs.Company.GET_CompanyDetailsByName_TC001#CompanyDetailsByName</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007#CompanyDistributorsByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003#CompanyDistributorsDataBySupplierName</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Com.APIs.Company.GET_CompanyFinancialRatioByCompanyID_TC028#GetCompanyFinancialRatioByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Com.APIs.Company.GET_CompanyFinancialSegmentCompanyID_TC026#CompanyFinancialSegmentCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Com.APIs.Company.GET_CompanyFinancialStatementByCompanyID_TC025#CompanyFinancialStatementByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Com.APIs.Company.GET_CompanyHistoryByCompanyID_017#GetCompanyHistoryByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC020#CompanyKeyPersonsByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Com.APIs.Company.GET_CompanyKeyPersonsByCompanyID_TC021#CompanyKeyPersonsByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014#GetCompanyLitigationsByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019#CompanyLocationsByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030#GetCompanyOwnerOfShareByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">Com.APIs.Company.GET_CompanyPatentDetailsByPatentID_TC011#CompanyPatentDetailsByPatentID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012#CompanyPatentsByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">Com.APIs.Company.GET_CompanyProfileByCompanyID_TC016#CompanyProfileByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015#CompanySupplyChainByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010#CompanyValidationByCompanyName</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004#GetCompanyFinancialDataByName</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">Com.APIs.Company.GET_GetCompanyNewsByCompanyID_TC006#GetCompanyNewsByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">Com.APIs.Company.GET_GetCompanySECFilingDateByCompanyID_TC005#GetCompanySECFilingDateByCompanyID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">Com.APIs.Company.GET_SiteProfileBySiteID_TC024#GetSiteProfileBySiteID</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

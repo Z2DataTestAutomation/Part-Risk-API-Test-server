@@ -1,0 +1,74 @@
+{
+  "uid": "af84f0a71a31438e",
+  "name": "InventoryDetailsByPartId",
+  "fullName": "Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015.InventoryDetailsByPartId",
+  "historyId": "81f584842b0b3190944f250bb91381f4",
+  "time": {
+    "start": 1603882542096,
+    "stop": 1603882545123,
+    "duration": 3027
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015"
+    },
+    {
+      "name": "testMethod",
+      "value": "InventoryDetailsByPartId"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "af84f0a71a31438e.json",
+  "parameterValues": []
+}

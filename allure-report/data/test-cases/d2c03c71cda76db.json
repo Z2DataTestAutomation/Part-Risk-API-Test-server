@@ -1,0 +1,74 @@
+{
+  "uid": "d2c03c71cda76db",
+  "name": "CompanyLocationsByCompanyID",
+  "fullName": "Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019.CompanyLocationsByCompanyID",
+  "historyId": "f7cc01c02cb93f775c06a72959c84b9e",
+  "time": {
+    "start": 1603882504432,
+    "stop": 1603882506621,
+    "duration": 2189
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019"
+    },
+    {
+      "name": "testMethod",
+      "value": "CompanyLocationsByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "d2c03c71cda76db.json",
+  "parameterValues": []
+}

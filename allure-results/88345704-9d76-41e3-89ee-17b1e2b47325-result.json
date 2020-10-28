@@ -1,0 +1,61 @@
+{
+  "name": "ProductLineList",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882575293,
+  "stop": 1603882579823,
+  "uuid": "88345704-9d76-41e3-89ee-17b1e2b47325",
+  "historyId": "ff01f5dc77da279b9b51c8122d15aecc",
+  "fullName": "Com.APIs.PartDataSearch.GET_ProductLineList_TC0012.ProductLineList",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.GET_ProductLineList_TC0012"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.GET_ProductLineList_TC0012"
+    },
+    {
+      "name": "testMethod",
+      "value": "ProductLineList"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.GET_ProductLineList_TC0012"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "4ec424f4-cb76-421d-9445-4b4df970ebc6",
+  "name": "Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017",
+  "children": [
+    "3d7a6730-576e-4309-a750-44d3f12516fe"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459558,
+  "stop": 1603882610752
+}

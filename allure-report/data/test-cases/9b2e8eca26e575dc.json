@@ -1,0 +1,74 @@
+{
+  "uid": "9b2e8eca26e575dc",
+  "name": "ModifyUploadedParts_ADD_GenralKey",
+  "fullName": "Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023.ModifyUploadedParts_ADD_GenralKey",
+  "historyId": "46f94f8ea097604e14b0bed3ce2c53f7",
+  "time": {
+    "start": 1603882592596,
+    "stop": 1603882594728,
+    "duration": 2132
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023"
+    },
+    {
+      "name": "testMethod",
+      "value": "ModifyUploadedParts_ADD_GenralKey"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "9b2e8eca26e575dc.json",
+  "parameterValues": []
+}

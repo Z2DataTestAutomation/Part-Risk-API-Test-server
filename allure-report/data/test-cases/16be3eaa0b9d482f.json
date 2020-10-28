@@ -1,0 +1,74 @@
+{
+  "uid": "16be3eaa0b9d482f",
+  "name": "ParametricFeaturesByProductID",
+  "fullName": "Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014.ParametricFeaturesByProductID",
+  "historyId": "641bca71c91160bdecec692308bd4790",
+  "time": {
+    "start": 1603882547174,
+    "stop": 1603882549064,
+    "duration": 1890
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014"
+    },
+    {
+      "name": "testMethod",
+      "value": "ParametricFeaturesByProductID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "16be3eaa0b9d482f.json",
+  "parameterValues": []
+}

@@ -1,82 +1,103 @@
 <html>
 <head>
-<title>TestNG:  Test</title>
-<link href="../testng.css" rel="stylesheet" type="text/css" />
-<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+    <title>TestNG: Test</title>
+    <link href="../testng.css" rel="stylesheet" type="text/css"/>
+    <link href="../my-testng.css" rel="stylesheet" type="text/css"/>
 
-<style type="text/css">
-.log { display: none;} 
-.stack-trace { display: none;} 
-</style>
-<script type="text/javascript">
-<!--
-function flip(e) {
-  current = e.style.display;
-  if (current == 'block') {
-    e.style.display = 'none';
-    return 0;
-  }
-  else {
-    e.style.display = 'block';
-    return 1;
-  }
-}
+    <style type="text/css">
+        .log {
+            display: none;
+        }
 
-function toggleBox(szDivId, elem, msg1, msg2)
-{
-  var res = -1;  if (document.getElementById) {
-    res = flip(document.getElementById(szDivId));
-  }
-  else if (document.all) {
-    // this is the way old msie versions work
-    res = flip(document.all[szDivId]);
-  }
-  if(elem) {
-    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
-  }
+        .stack-trace {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        <!--
+        function flip(e) {
+            current = e.style.display;
+            if (current == 'block') {
+                e.style.display = 'none';
+                return 0;
+            } else {
+                e.style.display = 'block';
+                return 1;
+            }
+        }
 
-}
+        function toggleBox(szDivId, elem, msg1, msg2) {
+            var res = -1;
+            if (document.getElementById) {
+                res = flip(document.getElementById(szDivId));
+            } else if (document.all) {
+                // this is the way old msie versions work
+                res = flip(document.all[szDivId]);
+            }
+            if (elem) {
+                if (res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+            }
 
-function toggleAllBoxes() {
-  if (document.getElementsByTagName) {
-    d = document.getElementsByTagName('div');
-    for (i = 0; i < d.length; i++) {
-      if (d[i].className == 'log') {
-        flip(d[i]);
-      }
-    }
-  }
-}
+        }
 
-// -->
-</script>
+        function toggleAllBoxes() {
+            if (document.getElementsByTagName) {
+                d = document.getElementsByTagName('div');
+                for (i = 0; i < d.length; i++) {
+                    if (d[i].className == 'log') {
+                        flip(d[i]);
+                    }
+                }
+            }
+        }
+
+        // -->
+    </script>
 
 </head>
 <body>
-<h2 align='center'>Test</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>28/1/0</td>
-</tr><tr>
-<td>Started on:</td><td>Thu Oct 01 15:32:06 EET 2020</td>
-</tr>
-<tr><td>Total time:</td><td>99 seconds (99463 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021.GComplianceDatainXMLByPartId()'><b>GComplianceDatainXMLByPartId</b><br>Test class: Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+<h2 align='center'>Test</h2>
+<table align="center" border='1'>
+    <tr>
+        <td>Tests passed/Failed/Skipped:</td>
+        <td>28/1/0</td>
+    </tr>
+    <tr>
+        <td>Started on:</td>
+        <td>Thu Oct 01 15:32:06 EET 2020</td>
+    </tr>
+    <tr>
+        <td>Total time:</td>
+        <td>99 seconds (99463 ms)</td>
+    </tr>
+    <tr>
+        <td>Included groups:</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Excluded groups:</td>
+        <td></td>
+    </tr>
+</table>
+<p/>
+<small><i>(Hover the method name to see the test class name)</i></small>
+<p/>
+<table border='1' class='invocation-failed' width='100%'>
+    <tr>
+        <td align='center' colspan='4'><b>FAILED TESTS</b></td>
+    </tr>
+    <tr>
+        <td><b>Test method</b></td>
+        <td width="30%"><b>Exception</b></td>
+        <td width="10%"><b>Time (seconds)</b></td>
+        <td><b>Instance</b></td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021.GComplianceDatainXMLByPartId()'><b>GComplianceDatainXMLByPartId</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021
+        </td>
+        <td>
+            <div><pre>java.lang.AssertionError: 1 expectation failed.
 Expected header &quot;content-Type&quot; was not &quot;application/json; charset=utf-8&quot;, was &quot;application/xml&quot;. Headers are:
 Content-Length=13122
 Content-Type=application/xml
@@ -103,8 +124,12 @@ Date=Thu, 01 Oct 2020 13:36:09 GMT
 	at io.restassured.internal.ValidatableResponseOptionsImpl.header(ValidatableResponseOptionsImpl.java:154)
 	at Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021.GComplianceDatainXMLByPartId(GET_ComplianceDatainXMLByPartId_TC021.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1709913495", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1709913495'><pre>java.lang.AssertionError: 1 expectation failed.
+... Removed 37 stack frames</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace1709913495", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace1709913495'><pre>java.lang.AssertionError: 1 expectation failed.
 Expected header &quot;content-Type&quot; was not &quot;application/json; charset=utf-8&quot;, was &quot;application/xml&quot;. Headers are:
 Content-Length=13122
 Content-Type=application/xml
@@ -168,157 +193,261 @@ Date=Thu, 01 Oct 2020 13:36:09 GMT
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>3</td>
-<td>Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021@20ccf40b</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017.ComplianceWithCMByPartID()'><b>ComplianceWithCMByPartID</b><br>Test class: Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017</td>
-<td></td>
-<td>5</td>
-<td>Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017@4229bb3f</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_PartConfig_TC019.ComplianceWithCMByPartID_PartConfig()'><b>ComplianceWithCMByPartID_PartConfig</b><br>Test class: Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_PartConfig_TC019</td>
-<td></td>
-<td>2</td>
-<td>Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_PartConfig_TC019@56cdfb3b</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_ChemicalDataByPartID_TC020.GetChemicalDataByPartID()'><b>GetChemicalDataByPartID</b><br>Test class: Com.APIs.PartDataSearch.GET_ChemicalDataByPartID_TC020</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.GET_ChemicalDataByPartID_TC020@2b91004a</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_CrossDataByPartId_TC011.GetCrossDataByPartId()'><b>GetCrossDataByPartId</b><br>Test class: Com.APIs.PartDataSearch.GET_CrossDataByPartId_TC011</td>
-<td></td>
-<td>10</td>
-<td>Com.APIs.PartDataSearch.GET_CrossDataByPartId_TC011@73e22a3d</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015.InventoryDetailsByPartId()'><b>InventoryDetailsByPartId</b><br>Test class: Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015@6da21078</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023.ModifyUploadedParts_ADD_GenralKey()'><b>ModifyUploadedParts_ADD_GenralKey</b><br>Test class: Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023@169e6180</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025.ModifyUploadedParts_ADD_WithoutDynamicData()'><b>ModifyUploadedParts_ADD_WithoutDynamicData</b><br>Test class: Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025@35aea049</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_TC027.ModifyUploadedParts_DELETE()'><b>ModifyUploadedParts_DELETE</b><br>Test class: Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_TC027</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_TC027@47987356</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028.ModifyUploadedParts_DELETE_WithoutDynamicData()'><b>ModifyUploadedParts_DELETE_WithoutDynamicData</b><br>Test class: Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028@22ef9844</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_GeneralKey_TC026.POST_ModifyUploadedParts_DELETE_GeneralKey()'><b>POST_ModifyUploadedParts_DELETE_GeneralKey</b><br>Test class: Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_GeneralKey_TC026</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_GeneralKey_TC026@7205765b</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022.POST_PartDataWithParametricFilters()'><b>POST_PartDataWithParametricFilters</b><br>Test class: Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022</td>
-<td></td>
-<td>2</td>
-<td>Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022@2fb3536e</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014.ParametricFeaturesByProductID()'><b>ParametricFeaturesByProductID</b><br>Test class: Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014@f736069</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GetPartDataByKeySearch_TC001.PartDataByKeySearch()'><b>PartDataByKeySearch</b><br>Test class: Com.APIs.PartDataSearch.GetPartDataByKeySearch_TC001</td>
-<td></td>
-<td>3</td>
-<td>Com.APIs.PartDataSearch.GetPartDataByKeySearch_TC001@16610890</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002.PartDataByKeySearch_PartConfig()'><b>PartDataByKeySearch_PartConfig</b><br>Test class: Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002@71def8f8</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_PartDataByPartId_TC003.PartDataByPartId()'><b>PartDataByPartId</b><br>Test class: Com.APIs.PartDataSearch.GET_PartDataByPartId_TC003</td>
-<td></td>
-<td>2</td>
-<td>Com.APIs.PartDataSearch.GET_PartDataByPartId_TC003@383bfa16</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004.PartDataByPartId_PartConfig()'><b>PartDataByPartId_PartConfig</b><br>Test class: Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004</td>
-<td></td>
-<td>5</td>
-<td>Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004@4d465b11</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GetPartDataByPartId_PartConfig_Duplicate_TC005.PartDataByPartId_PartConfig_Duplicate_parametric()'><b>PartDataByPartId_PartConfig_Duplicate_parametric</b><br>Test class: Com.APIs.PartDataSearch.GetPartDataByPartId_PartConfig_Duplicate_TC005</td>
-<td></td>
-<td>2</td>
-<td>Com.APIs.PartDataSearch.GetPartDataByPartId_PartConfig_Duplicate_TC005@53fdffa1</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_PartDetailsBySearch_TC006.PartDetailsBySearch()'><b>PartDetailsBySearch</b><br>Test class: Com.APIs.PartDataSearch.GET_PartDetailsBySearch_TC006</td>
-<td></td>
-<td>3</td>
-<td>Com.APIs.PartDataSearch.GET_PartDetailsBySearch_TC006@5562c41e</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_TC007.PartDetailsBySearchCustom()'><b>PartDetailsBySearchCustom</b><br>Test class: Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_TC007</td>
-<td></td>
-<td>5</td>
-<td>Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_TC007@32ee6fee</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_EmptyInput_TC008.PartDetailsBySearchCustom_EmptyInput()'><b>PartDetailsBySearchCustom_EmptyInput</b><br>Test class: Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_EmptyInput_TC008</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_EmptyInput_TC008@4d0f2471</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009.PartDetailsBySearchCustom_PartID()'><b>PartDetailsBySearchCustom_PartID</b><br>Test class: Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009</td>
-<td></td>
-<td>6</td>
-<td>Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009@7133da86</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_PartValidation_TC010.PartValidation()'><b>PartValidation</b><br>Test class: Com.APIs.PartDataSearch.GET_PartValidation_TC010</td>
-<td></td>
-<td>4</td>
-<td>Com.APIs.PartDataSearch.GET_PartValidation_TC010@3232a28a</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_ProductLineList_TC0012.ProductLineList()'><b>ProductLineList</b><br>Test class: Com.APIs.PartDataSearch.GET_ProductLineList_TC0012</td>
-<td></td>
-<td>4</td>
-<td>Com.APIs.PartDataSearch.GET_ProductLineList_TC0012@47faa49c</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013.UpdatedPartWithinDateRange()'><b>UpdatedPartWithinDateRange</b><br>Test class: Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013@28f2a10f</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029.ValidateUploadedParts()'><b>ValidateUploadedParts</b><br>Test class: Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029@6283d8b8</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029.ValidateUploadedParts2()'><b>ValidateUploadedParts2</b><br>Test class: Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029@6283d8b8</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030.ValidateUploadedParts_NotFoundStatus()'><b>ValidateUploadedParts_NotFoundStatus</b><br>Test class: Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030</td>
-<td></td>
-<td>1</td>
-<td>Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030@3b6ddd1d</td></tr>
-<tr>
-<td title='Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016._UpdatedPartDataWithinDateRange()'><b>_UpdatedPartDataWithinDateRange</b><br>Test class: Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016</td>
-<td></td>
-<td>11</td>
-<td>Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016@7fee8714</td></tr>
-</table><p>
+</pre>
+            </div>
+        </td>
+        <td>3</td>
+        <td>Com.APIs.PartDataSearch.GET_ComplianceDatainXMLByPartId_TC021@20ccf40b</td>
+    </tr>
+</table>
+<p>
+<table border='1' class='invocation-passed' width='100%'>
+    <tr>
+        <td align='center' colspan='4'><b>PASSED TESTS</b></td>
+    </tr>
+    <tr>
+        <td><b>Test method</b></td>
+        <td width="30%"><b>Exception</b></td>
+        <td width="10%"><b>Time (seconds)</b></td>
+        <td><b>Instance</b></td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017.ComplianceWithCMByPartID()'><b>ComplianceWithCMByPartID</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017
+        </td>
+        <td></td>
+        <td>5</td>
+        <td>Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_TC017@4229bb3f</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_PartConfig_TC019.ComplianceWithCMByPartID_PartConfig()'>
+            <b>ComplianceWithCMByPartID_PartConfig</b><br>Test class:
+            Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_PartConfig_TC019
+        </td>
+        <td></td>
+        <td>2</td>
+        <td>Com.APIs.PartDataSearch.GET_ComplianceWithCMByPartID_PartConfig_TC019@56cdfb3b</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_ChemicalDataByPartID_TC020.GetChemicalDataByPartID()'><b>GetChemicalDataByPartID</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_ChemicalDataByPartID_TC020
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.GET_ChemicalDataByPartID_TC020@2b91004a</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_CrossDataByPartId_TC011.GetCrossDataByPartId()'>
+            <b>GetCrossDataByPartId</b><br>Test class: Com.APIs.PartDataSearch.GET_CrossDataByPartId_TC011
+        </td>
+        <td></td>
+        <td>10</td>
+        <td>Com.APIs.PartDataSearch.GET_CrossDataByPartId_TC011@73e22a3d</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015.InventoryDetailsByPartId()'><b>InventoryDetailsByPartId</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015@6da21078</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023.ModifyUploadedParts_ADD_GenralKey()'>
+            <b>ModifyUploadedParts_ADD_GenralKey</b><br>Test class:
+            Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_GenralKey_TC023@169e6180</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025.ModifyUploadedParts_ADD_WithoutDynamicData()'>
+            <b>ModifyUploadedParts_ADD_WithoutDynamicData</b><br>Test class:
+            Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025@35aea049</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_TC027.ModifyUploadedParts_DELETE()'><b>ModifyUploadedParts_DELETE</b><br>Test
+            class: Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_TC027
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_TC027@47987356</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028.ModifyUploadedParts_DELETE_WithoutDynamicData()'>
+            <b>ModifyUploadedParts_DELETE_WithoutDynamicData</b><br>Test class:
+            Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028@22ef9844</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_GeneralKey_TC026.POST_ModifyUploadedParts_DELETE_GeneralKey()'>
+            <b>POST_ModifyUploadedParts_DELETE_GeneralKey</b><br>Test class:
+            Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_GeneralKey_TC026
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_GeneralKey_TC026@7205765b</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022.POST_PartDataWithParametricFilters()'>
+            <b>POST_PartDataWithParametricFilters</b><br>Test class:
+            Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022
+        </td>
+        <td></td>
+        <td>2</td>
+        <td>Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022@2fb3536e</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014.ParametricFeaturesByProductID()'><b>ParametricFeaturesByProductID</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.GET_ParametricFeaturesByProductID_TC014@f736069</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GetPartDataByKeySearch_TC001.PartDataByKeySearch()'>
+            <b>PartDataByKeySearch</b><br>Test class: Com.APIs.PartDataSearch.GetPartDataByKeySearch_TC001
+        </td>
+        <td></td>
+        <td>3</td>
+        <td>Com.APIs.PartDataSearch.GetPartDataByKeySearch_TC001@16610890</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002.PartDataByKeySearch_PartConfig()'>
+            <b>PartDataByKeySearch_PartConfig</b><br>Test class:
+            Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002@71def8f8</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_PartDataByPartId_TC003.PartDataByPartId()'><b>PartDataByPartId</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_PartDataByPartId_TC003
+        </td>
+        <td></td>
+        <td>2</td>
+        <td>Com.APIs.PartDataSearch.GET_PartDataByPartId_TC003@383bfa16</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004.PartDataByPartId_PartConfig()'><b>PartDataByPartId_PartConfig</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004
+        </td>
+        <td></td>
+        <td>5</td>
+        <td>Com.APIs.PartDataSearch.GET_PartDataByPartId_PartConfig_TC004@4d465b11</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GetPartDataByPartId_PartConfig_Duplicate_TC005.PartDataByPartId_PartConfig_Duplicate_parametric()'>
+            <b>PartDataByPartId_PartConfig_Duplicate_parametric</b><br>Test class:
+            Com.APIs.PartDataSearch.GetPartDataByPartId_PartConfig_Duplicate_TC005
+        </td>
+        <td></td>
+        <td>2</td>
+        <td>Com.APIs.PartDataSearch.GetPartDataByPartId_PartConfig_Duplicate_TC005@53fdffa1</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_PartDetailsBySearch_TC006.PartDetailsBySearch()'>
+            <b>PartDetailsBySearch</b><br>Test class: Com.APIs.PartDataSearch.GET_PartDetailsBySearch_TC006
+        </td>
+        <td></td>
+        <td>3</td>
+        <td>Com.APIs.PartDataSearch.GET_PartDetailsBySearch_TC006@5562c41e</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_TC007.PartDetailsBySearchCustom()'><b>PartDetailsBySearchCustom</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_TC007
+        </td>
+        <td></td>
+        <td>5</td>
+        <td>Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_TC007@32ee6fee</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_EmptyInput_TC008.PartDetailsBySearchCustom_EmptyInput()'>
+            <b>PartDetailsBySearchCustom_EmptyInput</b><br>Test class:
+            Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_EmptyInput_TC008
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_EmptyInput_TC008@4d0f2471</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009.PartDetailsBySearchCustom_PartID()'>
+            <b>PartDetailsBySearchCustom_PartID</b><br>Test class:
+            Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009
+        </td>
+        <td></td>
+        <td>6</td>
+        <td>Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009@7133da86</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_PartValidation_TC010.PartValidation()'><b>PartValidation</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_PartValidation_TC010
+        </td>
+        <td></td>
+        <td>4</td>
+        <td>Com.APIs.PartDataSearch.GET_PartValidation_TC010@3232a28a</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_ProductLineList_TC0012.ProductLineList()'><b>ProductLineList</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_ProductLineList_TC0012
+        </td>
+        <td></td>
+        <td>4</td>
+        <td>Com.APIs.PartDataSearch.GET_ProductLineList_TC0012@47faa49c</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013.UpdatedPartWithinDateRange()'><b>UpdatedPartWithinDateRange</b><br>Test
+            class: Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.GET_UpdatedPartWithinDateRange_TC013@28f2a10f</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029.ValidateUploadedParts()'><b>ValidateUploadedParts</b><br>Test
+            class: Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029@6283d8b8</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029.ValidateUploadedParts2()'><b>ValidateUploadedParts2</b><br>Test
+            class: Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.POST_ValidateUploadedParts_TC029@6283d8b8</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030.ValidateUploadedParts_NotFoundStatus()'>
+            <b>ValidateUploadedParts_NotFoundStatus</b><br>Test class:
+            Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030
+        </td>
+        <td></td>
+        <td>1</td>
+        <td>Com.APIs.PartDataSearch.POST_ValidateUploadedParts_NotFoundStatus_TC030@3b6ddd1d</td>
+    </tr>
+    <tr>
+        <td title='Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016._UpdatedPartDataWithinDateRange()'>
+            <b>_UpdatedPartDataWithinDateRange</b><br>Test class:
+            Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016
+        </td>
+        <td></td>
+        <td>11</td>
+        <td>Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016@7fee8714</td>
+    </tr>
+</table>
+<p>
 </body>
 </html>

@@ -1,0 +1,74 @@
+{
+  "uid": "e98684467cd6a16f",
+  "name": "ModifyUploadedParts_DELETE_WithoutDynamicData",
+  "fullName": "Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028.ModifyUploadedParts_DELETE_WithoutDynamicData",
+  "historyId": "972bc25b4b12feb1ea22de0bf5519431",
+  "time": {
+    "start": 1603882600455,
+    "stop": 1603882602316,
+    "duration": 1861
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028"
+    },
+    {
+      "name": "testMethod",
+      "value": "ModifyUploadedParts_DELETE_WithoutDynamicData"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "e98684467cd6a16f.json",
+  "parameterValues": []
+}

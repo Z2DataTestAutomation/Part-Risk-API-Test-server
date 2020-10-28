@@ -1,0 +1,12 @@
+{
+  "uuid": "3b969e09-8da2-4a79-b2ab-989aeaa42936",
+  "name": "Com.APIs.Company.GET_CompanyDistributorsByCompanyID_TC007",
+  "children": [
+    "25258bc5-f8b3-4ba9-91bf-9ae83f03a1cc"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459556,
+  "stop": 1603882610647
+}

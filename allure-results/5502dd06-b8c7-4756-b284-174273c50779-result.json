@@ -1,0 +1,61 @@
+{
+  "name": "GetCompanyFinancialDataByName",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882534235,
+  "stop": 1603882536241,
+  "uuid": "5502dd06-b8c7-4756-b284-174273c50779",
+  "historyId": "58ab319a62e80ec236688c2a3e615a9c",
+  "fullName": "Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004.GetCompanyFinancialDataByName",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetCompanyFinancialDataByName"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

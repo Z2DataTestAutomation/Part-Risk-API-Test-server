@@ -1,0 +1,12 @@
+{
+  "uuid": "18093421-8822-4a6e-80cb-10c74714f030",
+  "name": "Com.APIs.Company.GET_CompanyValidationByCompanyName_TC010",
+  "children": [
+    "0757f645-b8b1-44a7-8893-78b16f0d98bb"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459558,
+  "stop": 1603882610739
+}

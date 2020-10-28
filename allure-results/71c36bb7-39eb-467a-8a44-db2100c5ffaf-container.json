@@ -1,0 +1,12 @@
+{
+  "uuid": "71c36bb7-39eb-467a-8a44-db2100c5ffaf",
+  "name": "Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015",
+  "children": [
+    "f2e360a3-052e-4638-a2ea-838a65ea1fa8"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459557,
+  "stop": 1603882610734
+}

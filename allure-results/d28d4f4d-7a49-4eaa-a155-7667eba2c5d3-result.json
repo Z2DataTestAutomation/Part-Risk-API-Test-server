@@ -1,0 +1,61 @@
+{
+  "name": "GetCompanyLitigationsByCompanyID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882502379,
+  "stop": 1603882504425,
+  "uuid": "d28d4f4d-7a49-4eaa-a155-7667eba2c5d3",
+  "historyId": "4a7f1282589322d4552c8e6187d2c47f",
+  "fullName": "Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014.GetCompanyLitigationsByCompanyID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetCompanyLitigationsByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

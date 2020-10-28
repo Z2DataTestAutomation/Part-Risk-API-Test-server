@@ -1,0 +1,52 @@
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Product defects",
+      "children": [
+        {
+          "name": "1 expectation failed.\nJSON path results.CompanyID[0] doesn't match.\nExpected: is <1006096>\n  Actual: null\n",
+          "children": [
+            {
+              "name": "CompanyDirectorsByCompanyID",
+              "uid": "e2bdc5613fef06ac",
+              "parentUid": "bf12de683069cfb9cee5f054915d19ff",
+              "status": "failed",
+              "time": {
+                "start": 1603882474944,
+                "stop": 1603882476957,
+                "duration": 2013
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "bf12de683069cfb9cee5f054915d19ff"
+        },
+        {
+          "name": "1 expectation failed.\nJSON path numFound doesn't match.\nExpected: <42>\n  Actual: 43\n",
+          "children": [
+            {
+              "name": "CompanyRelationshipsByCompanyID",
+              "uid": "ca03aa805f5aa796",
+              "parentUid": "2029be0d85389a061127663e61a1fadb",
+              "status": "failed",
+              "time": {
+                "start": 1603882514663,
+                "stop": 1603882517028,
+                "duration": 2365
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "2029be0d85389a061127663e61a1fadb"
+        }
+      ],
+      "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    }
+  ]
+}

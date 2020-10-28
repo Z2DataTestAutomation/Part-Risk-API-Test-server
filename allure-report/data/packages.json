@@ -1,0 +1,1178 @@
+{
+  "uid": "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name": "packages",
+  "children": [
+    {
+      "name": "Com.APIs",
+      "children": [
+        {
+          "name": "PartDataSearch",
+          "children": [
+            {
+              "name": "GET_ChemicalDataByPartID_TC020",
+              "children": [
+                {
+                  "name": "GetChemicalDataByPartID",
+                  "uid": "35ac5759af7c55ff",
+                  "parentUid": "47efbfdbdddeb070e36da42e56972a81",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882459746,
+                    "stop": 1603882464779,
+                    "duration": 5033
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "47efbfdbdddeb070e36da42e56972a81"
+            },
+            {
+              "name": "GET_ComplianceDatainXMLByPartId_TC021",
+              "children": [
+                {
+                  "name": "GComplianceDatainXMLByPartId",
+                  "uid": "efa788d0fcff3bba",
+                  "parentUid": "60adcbaede2f7f41ad358347fc8deaed",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882521258,
+                    "stop": 1603882524170,
+                    "duration": 2912
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "60adcbaede2f7f41ad358347fc8deaed"
+            },
+            {
+              "name": "GET_ComplianceWithCMByPartID_PartConfig_TC019",
+              "children": [
+                {
+                  "name": "ComplianceWithCMByPartID_PartConfig",
+                  "uid": "bd33e974c704b0ec",
+                  "parentUid": "0611b9deed3f315fdd47ef557a1d4702",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882524181,
+                    "stop": 1603882526224,
+                    "duration": 2043
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "0611b9deed3f315fdd47ef557a1d4702"
+            },
+            {
+              "name": "GET_ComplianceWithCMByPartID_TC017",
+              "children": [
+                {
+                  "name": "ComplianceWithCMByPartID",
+                  "uid": "52dad892308ff773",
+                  "parentUid": "e9a2b34b1e515d7457935f07df427540",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882526231,
+                    "stop": 1603882529598,
+                    "duration": 3367
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "e9a2b34b1e515d7457935f07df427540"
+            },
+            {
+              "name": "GET_CrossDataByPartId_TC011",
+              "children": [
+                {
+                  "name": "GetCrossDataByPartId",
+                  "uid": "21c6b8eb90450123",
+                  "parentUid": "392776212d8444618390d1febca78e2d",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882529611,
+                    "stop": 1603882534227,
+                    "duration": 4616
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "392776212d8444618390d1febca78e2d"
+            },
+            {
+              "name": "GET_InventoryDetailsByPartId_015",
+              "children": [
+                {
+                  "name": "InventoryDetailsByPartId",
+                  "uid": "af84f0a71a31438e",
+                  "parentUid": "3b7bcb78867e2c99c0272859da9e7a86",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882542096,
+                    "stop": 1603882545123,
+                    "duration": 3027
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "3b7bcb78867e2c99c0272859da9e7a86"
+            },
+            {
+              "name": "GET_ParametricFeaturesByProductID_TC014",
+              "children": [
+                {
+                  "name": "ParametricFeaturesByProductID",
+                  "uid": "16be3eaa0b9d482f",
+                  "parentUid": "b6d31659f96b1ce76a969ecb8d82ccc2",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882547174,
+                    "stop": 1603882549064,
+                    "duration": 1890
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "b6d31659f96b1ce76a969ecb8d82ccc2"
+            },
+            {
+              "name": "GET_PartDataByKeySearch_PartConfig_TC002",
+              "children": [
+                {
+                  "name": "PartDataByKeySearch_PartConfig",
+                  "uid": "83b752afff5d786c",
+                  "parentUid": "36339f6ab17291f66e4b583980ab4256",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882549071,
+                    "stop": 1603882552483,
+                    "duration": 3412
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "36339f6ab17291f66e4b583980ab4256"
+            },
+            {
+              "name": "GET_PartDataByPartId_PartConfig_TC004",
+              "children": [
+                {
+                  "name": "PartDataByPartId_PartConfig",
+                  "uid": "7105e60a4030f94e",
+                  "parentUid": "d73bdef995be889c97dc1bf66a67be19",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882552494,
+                    "stop": 1603882555080,
+                    "duration": 2586
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "d73bdef995be889c97dc1bf66a67be19"
+            },
+            {
+              "name": "GET_PartDataByPartId_TC003",
+              "children": [
+                {
+                  "name": "PartDataByPartId",
+                  "uid": "b006088677990f6d",
+                  "parentUid": "1365dcc72808a724cdfee68a3b3129de",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882555087,
+                    "stop": 1603882557914,
+                    "duration": 2827
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "1365dcc72808a724cdfee68a3b3129de"
+            },
+            {
+              "name": "GET_PartDetailsBySearch_TC006",
+              "children": [
+                {
+                  "name": "PartDetailsBySearch",
+                  "uid": "a2e2f9128e362dcf",
+                  "parentUid": "7e193656ce7fdd252d7b26898bc93b47",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882557930,
+                    "stop": 1603882561027,
+                    "duration": 3097
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "7e193656ce7fdd252d7b26898bc93b47"
+            },
+            {
+              "name": "GET_PartDetailsBySearchCustom_EmptyInput_TC008",
+              "children": [
+                {
+                  "name": "PartDetailsBySearchCustom_EmptyInput",
+                  "uid": "6b10afd60a65c6f0",
+                  "parentUid": "c79769a062bdce9d1e92e03af027a36c",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882561040,
+                    "stop": 1603882562966,
+                    "duration": 1926
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "c79769a062bdce9d1e92e03af027a36c"
+            },
+            {
+              "name": "GET_PartDetailsBySearchCustom_PartID_TC009",
+              "children": [
+                {
+                  "name": "PartDetailsBySearchCustom_PartID",
+                  "uid": "f844b9c8c27c0ce6",
+                  "parentUid": "e35477b77f161d61e23b06e65e175340",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882562979,
+                    "stop": 1603882567854,
+                    "duration": 4875
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "e35477b77f161d61e23b06e65e175340"
+            },
+            {
+              "name": "GET_PartDetailsBySearchCustom_TC007",
+              "children": [
+                {
+                  "name": "PartDetailsBySearchCustom",
+                  "uid": "2ca6318cac3394cb",
+                  "parentUid": "50d20e9e1246db087ae83ddd572b2c8b",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882567862,
+                    "stop": 1603882572093,
+                    "duration": 4231
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "50d20e9e1246db087ae83ddd572b2c8b"
+            },
+            {
+              "name": "GET_PartValidation_TC010",
+              "children": [
+                {
+                  "name": "PartValidation",
+                  "uid": "ecc8b386672a1cd8",
+                  "parentUid": "eac0bdd06389029f5310394c1cc46973",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882572107,
+                    "stop": 1603882575284,
+                    "duration": 3177
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "eac0bdd06389029f5310394c1cc46973"
+            },
+            {
+              "name": "GET_ProductLineList_TC0012",
+              "children": [
+                {
+                  "name": "ProductLineList",
+                  "uid": "d5981fb539c76486",
+                  "parentUid": "061e2c2ca58e312ca2f58a80c85830fb",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882575293,
+                    "stop": 1603882579823,
+                    "duration": 4530
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "061e2c2ca58e312ca2f58a80c85830fb"
+            },
+            {
+              "name": "GET_UpdatedPartDataWithinDateRange_TC016",
+              "children": [
+                {
+                  "name": "_UpdatedPartDataWithinDateRange",
+                  "uid": "339cc5313c59b29a",
+                  "parentUid": "9e8fa3505599ff05d13ad6e62df68ef9",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882582304,
+                    "stop": 1603882585714,
+                    "duration": 3410
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "9e8fa3505599ff05d13ad6e62df68ef9"
+            },
+            {
+              "name": "GET_UpdatedPartWithinDateRange_TC013",
+              "children": [
+                {
+                  "name": "UpdatedPartWithinDateRange",
+                  "uid": "9b942ea3cfea4b4b",
+                  "parentUid": "30e5ca04df27593651ddf0bacfeb9eca",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882585727,
+                    "stop": 1603882588161,
+                    "duration": 2434
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "30e5ca04df27593651ddf0bacfeb9eca"
+            },
+            {
+              "name": "GetPartDataByKeySearch_TC001",
+              "children": [
+                {
+                  "name": "PartDataByKeySearch",
+                  "uid": "3428fd04020075a3",
+                  "parentUid": "cff21997a58bb94b9a10c97919e204fb",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882588168,
+                    "stop": 1603882590058,
+                    "duration": 1890
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "cff21997a58bb94b9a10c97919e204fb"
+            },
+            {
+              "name": "GetPartDataByPartId_PartConfig_Duplicate_TC005",
+              "children": [
+                {
+                  "name": "PartDataByPartId_PartConfig_Duplicate_parametric",
+                  "uid": "7ed2153a5aeb31cd",
+                  "parentUid": "e2554ed15340546eecf4d765ceb689d0",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882590067,
+                    "stop": 1603882592581,
+                    "duration": 2514
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "e2554ed15340546eecf4d765ceb689d0"
+            },
+            {
+              "name": "POST_ModifyUploadedParts_ADD_GenralKey_TC023",
+              "children": [
+                {
+                  "name": "ModifyUploadedParts_ADD_GenralKey",
+                  "uid": "9b2e8eca26e575dc",
+                  "parentUid": "f04681536282708dfb897ba14ff9992b",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882592596,
+                    "stop": 1603882594728,
+                    "duration": 2132
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "f04681536282708dfb897ba14ff9992b"
+            },
+            {
+              "name": "POST_ModifyUploadedParts_ADD_WithoutDynamicData_TC025",
+              "children": [
+                {
+                  "name": "ModifyUploadedParts_ADD_WithoutDynamicData",
+                  "uid": "691c1436f6908373",
+                  "parentUid": "91e88aa4b8a58695e325509aae5b1ee3",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882594735,
+                    "stop": 1603882596614,
+                    "duration": 1879
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "91e88aa4b8a58695e325509aae5b1ee3"
+            },
+            {
+              "name": "POST_ModifyUploadedParts_DELETE_GeneralKey_TC026",
+              "children": [
+                {
+                  "name": "POST_ModifyUploadedParts_DELETE_GeneralKey",
+                  "uid": "34b7815cf5028a53",
+                  "parentUid": "d1bae03a481d2f172915c7caca4f7f1c",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882596623,
+                    "stop": 1603882598501,
+                    "duration": 1878
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "d1bae03a481d2f172915c7caca4f7f1c"
+            },
+            {
+              "name": "POST_ModifyUploadedParts_DELETE_TC027",
+              "children": [
+                {
+                  "name": "ModifyUploadedParts_DELETE",
+                  "uid": "1b3640a9eaff9329",
+                  "parentUid": "b5816ac14135c344e835b7d11c35223f",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882598513,
+                    "stop": 1603882600448,
+                    "duration": 1935
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "b5816ac14135c344e835b7d11c35223f"
+            },
+            {
+              "name": "POST_ModifyUploadedParts_DELETE_WithoutDynamicData_TC028",
+              "children": [
+                {
+                  "name": "ModifyUploadedParts_DELETE_WithoutDynamicData",
+                  "uid": "e98684467cd6a16f",
+                  "parentUid": "8ab29e194c401982b1afa0de80bb4d30",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882600455,
+                    "stop": 1603882602316,
+                    "duration": 1861
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "8ab29e194c401982b1afa0de80bb4d30"
+            },
+            {
+              "name": "POST_PartDataWithParametricFilters_TC022",
+              "children": [
+                {
+                  "name": "POST_PartDataWithParametricFilters",
+                  "uid": "99e207a180aa0c50",
+                  "parentUid": "e47d19084394e488d1f79f7fd6a20772",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882602322,
+                    "stop": 1603882604957,
+                    "duration": 2635
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "e47d19084394e488d1f79f7fd6a20772"
+            },
+            {
+              "name": "POST_ValidateUploadedParts_NotFoundStatus_TC030",
+              "children": [
+                {
+                  "name": "ValidateUploadedParts_NotFoundStatus",
+                  "uid": "be3c97200a87997d",
+                  "parentUid": "6bb06b174e4b69b7c89f3d894b0179f6",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882604968,
+                    "stop": 1603882606854,
+                    "duration": 1886
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "6bb06b174e4b69b7c89f3d894b0179f6"
+            },
+            {
+              "name": "POST_ValidateUploadedParts_TC029",
+              "children": [
+                {
+                  "name": "ValidateUploadedParts",
+                  "uid": "d6f6b6162fb4c330",
+                  "parentUid": "d7e337a5dbb65c3275930381381b0d85",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882606860,
+                    "stop": 1603882608718,
+                    "duration": 1858
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                },
+                {
+                  "name": "ValidateUploadedParts2",
+                  "uid": "f88cf48838076a63",
+                  "parentUid": "d7e337a5dbb65c3275930381381b0d85",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882608724,
+                    "stop": 1603882610599,
+                    "duration": 1875
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "d7e337a5dbb65c3275930381381b0d85"
+            }
+          ],
+          "uid": "592f1bda810882dce3b51fe1155b8b98"
+        },
+        {
+          "name": "Company",
+          "children": [
+            {
+              "name": "GET_CompanyAcquisitionsByCompanyID_TC018",
+              "children": [
+                {
+                  "name": "CompanyAcquisitionsByCompanyID",
+                  "uid": "a194657f2b6c9091",
+                  "parentUid": "9fc5b1e8ca5f5cf758a9396c57930b16",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882464898,
+                    "stop": 1603882467763,
+                    "duration": 2865
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "9fc5b1e8ca5f5cf758a9396c57930b16"
+            },
+            {
+              "name": "GET_CompanyCompetitorsByCompanyID_TC008",
+              "children": [
+                {
+                  "name": "GetCompanyCompetitorsByCompanyID",
+                  "uid": "3229c44b7a427e15",
+                  "parentUid": "ccf51d39324f953308ce58e8d549dfb6",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882467773,
+                    "stop": 1603882470640,
+                    "duration": 2867
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "ccf51d39324f953308ce58e8d549dfb6"
+            },
+            {
+              "name": "GET_CompanyComplinceDataBySupplier_TC002",
+              "children": [
+                {
+                  "name": "CompanyComplianceDataBySupplierName",
+                  "uid": "1de4525079254a7c",
+                  "parentUid": "68e09058b1af4ba7e1c2b698aa46a32c",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882470660,
+                    "stop": 1603882472865,
+                    "duration": 2205
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "68e09058b1af4ba7e1c2b698aa46a32c"
+            },
+            {
+              "name": "GET_CompanyDetailsByName_TC001",
+              "children": [
+                {
+                  "name": "CompanyDetailsByName",
+                  "uid": "be3fc7dee446f24a",
+                  "parentUid": "f90f1665b28dc61fe8ae1362961f9272",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882472884,
+                    "stop": 1603882474933,
+                    "duration": 2049
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "f90f1665b28dc61fe8ae1362961f9272"
+            },
+            {
+              "name": "GET_CompanyDirectorsByCompanyID_TC022",
+              "children": [
+                {
+                  "name": "CompanyDirectorsByCompanyID",
+                  "uid": "e2bdc5613fef06ac",
+                  "parentUid": "61f2e2d3dfe03bcf007a17f9b21c9ba5",
+                  "status": "failed",
+                  "time": {
+                    "start": 1603882474944,
+                    "stop": 1603882476957,
+                    "duration": 2013
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "61f2e2d3dfe03bcf007a17f9b21c9ba5"
+            },
+            {
+              "name": "GET_CompanyDistributorsByCompanyID_TC007",
+              "children": [
+                {
+                  "name": "CompanyDistributorsByCompanyID",
+                  "uid": "504a2fd64f30b222",
+                  "parentUid": "1262d28dc13c86d4b9fb0b60e9362757",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882476985,
+                    "stop": 1603882479743,
+                    "duration": 2758
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "1262d28dc13c86d4b9fb0b60e9362757"
+            },
+            {
+              "name": "GET_CompanyDistributorsDataBySupplierName_TC003",
+              "children": [
+                {
+                  "name": "CompanyDistributorsDataBySupplierName",
+                  "uid": "7df40a0bf7462222",
+                  "parentUid": "1614ceda2dcea24f0e006be5538ebc31",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882479757,
+                    "stop": 1603882482163,
+                    "duration": 2406
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "1614ceda2dcea24f0e006be5538ebc31"
+            },
+            {
+              "name": "GET_CompanyExecutivesByCompanyID_TC023",
+              "children": [
+                {
+                  "name": "GetCompanyExecutivesByCompanyID",
+                  "uid": "3951b9d7476a1ca2",
+                  "parentUid": "f2c60c06f6f923b7db9531196cece708",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882482182,
+                    "stop": 1603882484723,
+                    "duration": 2541
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "f2c60c06f6f923b7db9531196cece708"
+            },
+            {
+              "name": "GET_CompanyFinancialKeyStatsByCompanyID_TC029",
+              "children": [
+                {
+                  "name": "GetCompanyFinancialKeyStatsByCompanyID",
+                  "uid": "e26b6e567b6df925",
+                  "parentUid": "5d072c14b4239334fe2d44d2fc82a134",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882484738,
+                    "stop": 1603882487760,
+                    "duration": 3022
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "5d072c14b4239334fe2d44d2fc82a134"
+            },
+            {
+              "name": "GET_CompanyFinancialRatioByCompanyID_TC028",
+              "children": [
+                {
+                  "name": "GetCompanyFinancialRatioByCompanyID",
+                  "uid": "438da849c5ba2a08",
+                  "parentUid": "8c409fab8aa847be614cac8d0ac1d8eb",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882487800,
+                    "stop": 1603882490173,
+                    "duration": 2373
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "8c409fab8aa847be614cac8d0ac1d8eb"
+            },
+            {
+              "name": "GET_CompanyFinancialSegmentCompanyID_TC026",
+              "children": [
+                {
+                  "name": "CompanyFinancialSegmentCompanyID",
+                  "uid": "77adfaee2d9f566c",
+                  "parentUid": "046c3822b08554d70b585be2105409d3",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882490184,
+                    "stop": 1603882492737,
+                    "duration": 2553
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "046c3822b08554d70b585be2105409d3"
+            },
+            {
+              "name": "GET_CompanyFinancialStatementByCompanyID_TC025",
+              "children": [
+                {
+                  "name": "CompanyFinancialStatementByCompanyID",
+                  "uid": "ee66d229aa161823",
+                  "parentUid": "9857864d524a2f21010f33d035eadf75",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882492746,
+                    "stop": 1603882495983,
+                    "duration": 3237
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "9857864d524a2f21010f33d035eadf75"
+            },
+            {
+              "name": "GET_CompanyHistoryByCompanyID_017",
+              "children": [
+                {
+                  "name": "GetCompanyHistoryByCompanyID",
+                  "uid": "147ce783f2e8bb73",
+                  "parentUid": "6d273ec12d5112aa4fc921a527e023a2",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882496002,
+                    "stop": 1603882498089,
+                    "duration": 2087
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "6d273ec12d5112aa4fc921a527e023a2"
+            },
+            {
+              "name": "GET_CompanyKeyPersonsByCompanyID_TC020",
+              "children": [
+                {
+                  "name": "CompanyKeyPersonsByCompanyID",
+                  "uid": "d2c22d35cd649b0b",
+                  "parentUid": "9360295a36ea16726205fae8bacb9bf4",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882498095,
+                    "stop": 1603882500110,
+                    "duration": 2015
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "9360295a36ea16726205fae8bacb9bf4"
+            },
+            {
+              "name": "GET_CompanyKeyPersonsByCompanyID_TC021",
+              "children": [
+                {
+                  "name": "CompanyKeyPersonsByCompanyID",
+                  "uid": "8716585f0aacb9c3",
+                  "parentUid": "3aa87801d328c3d4fd7e8db699f43984",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882500118,
+                    "stop": 1603882502334,
+                    "duration": 2216
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "3aa87801d328c3d4fd7e8db699f43984"
+            },
+            {
+              "name": "GET_CompanyLitigationsByCompanyID_TC014",
+              "children": [
+                {
+                  "name": "GetCompanyLitigationsByCompanyID",
+                  "uid": "12fe28c604821a54",
+                  "parentUid": "8c497a735e73a85868230301b08d221c",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882502379,
+                    "stop": 1603882504425,
+                    "duration": 2046
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "8c497a735e73a85868230301b08d221c"
+            },
+            {
+              "name": "GET_CompanyLocationsByCompanyID_TC019",
+              "children": [
+                {
+                  "name": "CompanyLocationsByCompanyID",
+                  "uid": "d2c03c71cda76db",
+                  "parentUid": "8d98e3e094269bc6937fb49a28bd887c",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882504432,
+                    "stop": 1603882506621,
+                    "duration": 2189
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "8d98e3e094269bc6937fb49a28bd887c"
+            },
+            {
+              "name": "GET_CompanyOwnerOfShareByCompanyID_TC030",
+              "children": [
+                {
+                  "name": "GetCompanyOwnerOfShareByCompanyID",
+                  "uid": "27870425fb822e09",
+                  "parentUid": "50c9c37dd3b2af75e937ba0059b7a974",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882506628,
+                    "stop": 1603882508605,
+                    "duration": 1977
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "50c9c37dd3b2af75e937ba0059b7a974"
+            },
+            {
+              "name": "GET_CompanyPatentDetailsByPatentID_TC011",
+              "children": [
+                {
+                  "name": "CompanyPatentDetailsByPatentID",
+                  "uid": "2302502b337f31b0",
+                  "parentUid": "24f16ec7f54b805cf3a17984ea52554a",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882508617,
+                    "stop": 1603882510597,
+                    "duration": 1980
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "24f16ec7f54b805cf3a17984ea52554a"
+            },
+            {
+              "name": "GET_CompanyPatentsByCompanyID_TC012",
+              "children": [
+                {
+                  "name": "CompanyPatentsByCompanyID",
+                  "uid": "d74a8611f49c1ff9",
+                  "parentUid": "c1a1172ed22df8782e5e37084f9196a3",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882510608,
+                    "stop": 1603882512748,
+                    "duration": 2140
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "c1a1172ed22df8782e5e37084f9196a3"
+            },
+            {
+              "name": "GET_CompanyProfileByCompanyID_TC016",
+              "children": [
+                {
+                  "name": "CompanyProfileByCompanyID",
+                  "uid": "dcc4ae59a2bfbcfc",
+                  "parentUid": "23004ec27171b65c04353e8b6c62ebce",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882512756,
+                    "stop": 1603882514646,
+                    "duration": 1890
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "23004ec27171b65c04353e8b6c62ebce"
+            },
+            {
+              "name": "GET_CompanyRelationshipsByCompanyID_TC009",
+              "children": [
+                {
+                  "name": "CompanyRelationshipsByCompanyID",
+                  "uid": "ca03aa805f5aa796",
+                  "parentUid": "0cd75587960fea146c5091e3694895f1",
+                  "status": "failed",
+                  "time": {
+                    "start": 1603882514663,
+                    "stop": 1603882517028,
+                    "duration": 2365
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "0cd75587960fea146c5091e3694895f1"
+            },
+            {
+              "name": "GET_CompanySupplyChainByCompanyID_TC015",
+              "children": [
+                {
+                  "name": "CompanySupplyChainByCompanyID",
+                  "uid": "2416a3af877b3829",
+                  "parentUid": "e8ad3383b6831a0a0e207827fdf5b580",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882517041,
+                    "stop": 1603882519093,
+                    "duration": 2052
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "e8ad3383b6831a0a0e207827fdf5b580"
+            },
+            {
+              "name": "GET_CompanyValidationByCompanyName_TC010",
+              "children": [
+                {
+                  "name": "CompanyValidationByCompanyName",
+                  "uid": "f95abd67c67f43eb",
+                  "parentUid": "218513f9eefeb6895cc0335bade80769",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882519101,
+                    "stop": 1603882521246,
+                    "duration": 2145
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "218513f9eefeb6895cc0335bade80769"
+            },
+            {
+              "name": "GET_GetCompanyFinancialDataByName_TC004",
+              "children": [
+                {
+                  "name": "GetCompanyFinancialDataByName",
+                  "uid": "b0aba8fe35fe6ce0",
+                  "parentUid": "ba739089c42493a978baed11a2a5d329",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882534235,
+                    "stop": 1603882536241,
+                    "duration": 2006
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "ba739089c42493a978baed11a2a5d329"
+            },
+            {
+              "name": "GET_GetCompanyNewsByCompanyID_TC006",
+              "children": [
+                {
+                  "name": "GetCompanyNewsByCompanyID",
+                  "uid": "609d0ddc3682bd4a",
+                  "parentUid": "d41a36d8e02868bf2077540cafe57a24",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882536255,
+                    "stop": 1603882538251,
+                    "duration": 1996
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "d41a36d8e02868bf2077540cafe57a24"
+            },
+            {
+              "name": "GET_GetCompanySECFilingDateByCompanyID_TC005",
+              "children": [
+                {
+                  "name": "GetCompanySECFilingDateByCompanyID",
+                  "uid": "de0d8288dee8c1b2",
+                  "parentUid": "4020160361f90737043b77f7696daf33",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882538264,
+                    "stop": 1603882542083,
+                    "duration": 3819
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "4020160361f90737043b77f7696daf33"
+            },
+            {
+              "name": "GET_Litigation_Details_SelectByLitigationID_TC013",
+              "children": [
+                {
+                  "name": "Litigation_Details_SelectByLitigationID",
+                  "uid": "df3559c9f9bbb9ea",
+                  "parentUid": "f9cf347d99f720fb841db01831004db1",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882545131,
+                    "stop": 1603882547149,
+                    "duration": 2018
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "f9cf347d99f720fb841db01831004db1"
+            },
+            {
+              "name": "GET_SiteProfileBySiteID_TC024",
+              "children": [
+                {
+                  "name": "GetSiteProfileBySiteID",
+                  "uid": "ee552d042d237ea4",
+                  "parentUid": "4f0e5829eb0cbba0afe53008dc770b82",
+                  "status": "passed",
+                  "time": {
+                    "start": 1603882579837,
+                    "stop": 1603882582296,
+                    "duration": 2459
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "4f0e5829eb0cbba0afe53008dc770b82"
+            }
+          ],
+          "uid": "ff842172487bef4e9f451dfa46b4d3ef"
+        }
+      ],
+      "uid": "Com.APIs"
+    }
+  ]
+}

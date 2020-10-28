@@ -1,0 +1,61 @@
+{
+  "name": "CompanyAcquisitionsByCompanyID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882464898,
+  "stop": 1603882467763,
+  "uuid": "21cdc41a-9965-4ba5-b8ef-5e9b0505e767",
+  "historyId": "9b4d06db5c9028784e9c0eec6536d9cd",
+  "fullName": "Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018.CompanyAcquisitionsByCompanyID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018"
+    },
+    {
+      "name": "testMethod",
+      "value": "CompanyAcquisitionsByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyAcquisitionsByCompanyID_TC018"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,74 @@
+{
+  "uid": "f844b9c8c27c0ce6",
+  "name": "PartDetailsBySearchCustom_PartID",
+  "fullName": "Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009.PartDetailsBySearchCustom_PartID",
+  "historyId": "2581a846158adc91ebc1246d0b731282",
+  "time": {
+    "start": 1603882562979,
+    "stop": 1603882567854,
+    "duration": 4875
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009"
+    },
+    {
+      "name": "testMethod",
+      "value": "PartDetailsBySearchCustom_PartID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.GET_PartDetailsBySearchCustom_PartID_TC009"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "f844b9c8c27c0ce6.json",
+  "parameterValues": []
+}

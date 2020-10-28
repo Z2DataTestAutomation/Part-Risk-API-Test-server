@@ -1,0 +1,12 @@
+{
+  "uuid": "829bb710-dfe6-4d0c-9445-132c083db99f",
+  "name": "Com.APIs.PartDataSearch.GET_PartDataByKeySearch_PartConfig_TC002",
+  "children": [
+    "939748d7-adcc-43f7-bc72-8f8b946b3083"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459559,
+  "stop": 1603882610782
+}

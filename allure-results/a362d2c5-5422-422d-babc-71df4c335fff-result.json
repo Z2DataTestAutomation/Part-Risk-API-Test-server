@@ -1,0 +1,61 @@
+{
+  "name": "GetCompanyCompetitorsByCompanyID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882467773,
+  "stop": 1603882470640,
+  "uuid": "a362d2c5-5422-422d-babc-71df4c335fff",
+  "historyId": "85d83d9a1ca5b06e2b4cb0511837987f",
+  "fullName": "Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008.GetCompanyCompetitorsByCompanyID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetCompanyCompetitorsByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyCompetitorsByCompanyID_TC008"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

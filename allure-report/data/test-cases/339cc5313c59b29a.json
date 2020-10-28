@@ -1,0 +1,74 @@
+{
+  "uid": "339cc5313c59b29a",
+  "name": "_UpdatedPartDataWithinDateRange",
+  "fullName": "Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016._UpdatedPartDataWithinDateRange",
+  "historyId": "bcc7e14a739dd9f0c4d8b85a91babaf5",
+  "time": {
+    "start": 1603882582304,
+    "stop": 1603882585714,
+    "duration": 3410
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016"
+    },
+    {
+      "name": "testMethod",
+      "value": "_UpdatedPartDataWithinDateRange"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.GET_UpdatedPartDataWithinDateRange_TC016"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "339cc5313c59b29a.json",
+  "parameterValues": []
+}

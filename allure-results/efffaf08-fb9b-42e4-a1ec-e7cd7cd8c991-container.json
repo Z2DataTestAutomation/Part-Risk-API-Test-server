@@ -1,0 +1,12 @@
+{
+  "uuid": "efffaf08-fb9b-42e4-a1ec-e7cd7cd8c991",
+  "name": "Com.APIs.Company.GET_GetCompanyFinancialDataByName_TC004",
+  "children": [
+    "5502dd06-b8c7-4756-b284-174273c50779"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459559,
+  "stop": 1603882610760
+}

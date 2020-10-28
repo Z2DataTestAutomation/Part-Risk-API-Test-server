@@ -1,0 +1,74 @@
+{
+  "uid": "12fe28c604821a54",
+  "name": "GetCompanyLitigationsByCompanyID",
+  "fullName": "Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014.GetCompanyLitigationsByCompanyID",
+  "historyId": "4a7f1282589322d4552c8e6187d2c47f",
+  "time": {
+    "start": 1603882502379,
+    "stop": 1603882504425,
+    "duration": 2046
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetCompanyLitigationsByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyLitigationsByCompanyID_TC014"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "12fe28c604821a54.json",
+  "parameterValues": []
+}

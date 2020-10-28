@@ -1,0 +1,61 @@
+{
+  "name": "CompanyLocationsByCompanyID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882504432,
+  "stop": 1603882506621,
+  "uuid": "e4f9b7e3-8d03-4ff2-a11e-7201f25fbb67",
+  "historyId": "f7cc01c02cb93f775c06a72959c84b9e",
+  "fullName": "Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019.CompanyLocationsByCompanyID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019"
+    },
+    {
+      "name": "testMethod",
+      "value": "CompanyLocationsByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyLocationsByCompanyID_TC019"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

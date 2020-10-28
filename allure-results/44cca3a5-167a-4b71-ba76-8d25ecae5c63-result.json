@@ -1,0 +1,61 @@
+{
+  "name": "CompanyDistributorsDataBySupplierName",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882479757,
+  "stop": 1603882482163,
+  "uuid": "44cca3a5-167a-4b71-ba76-8d25ecae5c63",
+  "historyId": "ac7eff0fc9cb381d9716dba02a82cef2",
+  "fullName": "Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003.CompanyDistributorsDataBySupplierName",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003"
+    },
+    {
+      "name": "testMethod",
+      "value": "CompanyDistributorsDataBySupplierName"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyDistributorsDataBySupplierName_TC003"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

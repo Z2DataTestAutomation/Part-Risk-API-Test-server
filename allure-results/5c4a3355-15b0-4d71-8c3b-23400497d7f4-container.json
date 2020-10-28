@@ -1,0 +1,12 @@
+{
+  "uuid": "5c4a3355-15b0-4d71-8c3b-23400497d7f4",
+  "name": "Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030",
+  "children": [
+    "e5c97104-8820-423f-9c27-c87e342c246a"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459557,
+  "stop": 1603882610712
+}

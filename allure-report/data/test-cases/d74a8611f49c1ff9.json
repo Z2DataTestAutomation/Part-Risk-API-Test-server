@@ -1,0 +1,74 @@
+{
+  "uid": "d74a8611f49c1ff9",
+  "name": "CompanyPatentsByCompanyID",
+  "fullName": "Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012.CompanyPatentsByCompanyID",
+  "historyId": "c4cfe439cb7de9e05f36684ec9ad159a",
+  "time": {
+    "start": 1603882510608,
+    "stop": 1603882512748,
+    "duration": 2140
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012"
+    },
+    {
+      "name": "testMethod",
+      "value": "CompanyPatentsByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyPatentsByCompanyID_TC012"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "d74a8611f49c1ff9.json",
+  "parameterValues": []
+}

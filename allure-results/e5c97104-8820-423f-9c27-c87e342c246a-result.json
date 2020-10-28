@@ -1,0 +1,61 @@
+{
+  "name": "GetCompanyOwnerOfShareByCompanyID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882506628,
+  "stop": 1603882508605,
+  "uuid": "e5c97104-8820-423f-9c27-c87e342c246a",
+  "historyId": "15de6a252caef7f4a657dc2f545b0342",
+  "fullName": "Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030.GetCompanyOwnerOfShareByCompanyID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetCompanyOwnerOfShareByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyOwnerOfShareByCompanyID_TC030"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

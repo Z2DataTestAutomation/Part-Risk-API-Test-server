@@ -1,0 +1,61 @@
+{
+  "name": "POST_PartDataWithParametricFilters",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882602322,
+  "stop": 1603882604957,
+  "uuid": "fe303f15-bb46-4fda-8a6a-3fb9086efd03",
+  "historyId": "69dfad6c80164598fb6ea166d30c010b",
+  "fullName": "Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022.POST_PartDataWithParametricFilters",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022"
+    },
+    {
+      "name": "testMethod",
+      "value": "POST_PartDataWithParametricFilters"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.POST_PartDataWithParametricFilters_TC022"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

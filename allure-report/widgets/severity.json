@@ -1,0 +1,640 @@
+[
+  {
+    "uid": "7105e60a4030f94e",
+    "name": "PartDataByPartId_PartConfig",
+    "time": {
+      "start": 1603882552494,
+      "stop": 1603882555080,
+      "duration": 2586
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a2e2f9128e362dcf",
+    "name": "PartDetailsBySearch",
+    "time": {
+      "start": 1603882557930,
+      "stop": 1603882561027,
+      "duration": 3097
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b006088677990f6d",
+    "name": "PartDataByPartId",
+    "time": {
+      "start": 1603882555087,
+      "stop": 1603882557914,
+      "duration": 2827
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f844b9c8c27c0ce6",
+    "name": "PartDetailsBySearchCustom_PartID",
+    "time": {
+      "start": 1603882562979,
+      "stop": 1603882567854,
+      "duration": 4875
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a194657f2b6c9091",
+    "name": "CompanyAcquisitionsByCompanyID",
+    "time": {
+      "start": 1603882464898,
+      "stop": 1603882467763,
+      "duration": 2865
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9b2e8eca26e575dc",
+    "name": "ModifyUploadedParts_ADD_GenralKey",
+    "time": {
+      "start": 1603882592596,
+      "stop": 1603882594728,
+      "duration": 2132
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "504a2fd64f30b222",
+    "name": "CompanyDistributorsByCompanyID",
+    "time": {
+      "start": 1603882476985,
+      "stop": 1603882479743,
+      "duration": 2758
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "27870425fb822e09",
+    "name": "GetCompanyOwnerOfShareByCompanyID",
+    "time": {
+      "start": 1603882506628,
+      "stop": 1603882508605,
+      "duration": 1977
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "df3559c9f9bbb9ea",
+    "name": "Litigation_Details_SelectByLitigationID",
+    "time": {
+      "start": 1603882545131,
+      "stop": 1603882547149,
+      "duration": 2018
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "2302502b337f31b0",
+    "name": "CompanyPatentDetailsByPatentID",
+    "time": {
+      "start": 1603882508617,
+      "stop": 1603882510597,
+      "duration": 1980
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "ee66d229aa161823",
+    "name": "CompanyFinancialStatementByCompanyID",
+    "time": {
+      "start": 1603882492746,
+      "stop": 1603882495983,
+      "duration": 3237
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "609d0ddc3682bd4a",
+    "name": "GetCompanyNewsByCompanyID",
+    "time": {
+      "start": 1603882536255,
+      "stop": 1603882538251,
+      "duration": 1996
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7ed2153a5aeb31cd",
+    "name": "PartDataByPartId_PartConfig_Duplicate_parametric",
+    "time": {
+      "start": 1603882590067,
+      "stop": 1603882592581,
+      "duration": 2514
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "1b3640a9eaff9329",
+    "name": "ModifyUploadedParts_DELETE",
+    "time": {
+      "start": 1603882598513,
+      "stop": 1603882600448,
+      "duration": 1935
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "438da849c5ba2a08",
+    "name": "GetCompanyFinancialRatioByCompanyID",
+    "time": {
+      "start": 1603882487800,
+      "stop": 1603882490173,
+      "duration": 2373
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "3951b9d7476a1ca2",
+    "name": "GetCompanyExecutivesByCompanyID",
+    "time": {
+      "start": 1603882482182,
+      "stop": 1603882484723,
+      "duration": 2541
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "147ce783f2e8bb73",
+    "name": "GetCompanyHistoryByCompanyID",
+    "time": {
+      "start": 1603882496002,
+      "stop": 1603882498089,
+      "duration": 2087
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "ca03aa805f5aa796",
+    "name": "CompanyRelationshipsByCompanyID",
+    "time": {
+      "start": 1603882514663,
+      "stop": 1603882517028,
+      "duration": 2365
+    },
+    "status": "failed",
+    "severity": "normal"
+  },
+  {
+    "uid": "af84f0a71a31438e",
+    "name": "InventoryDetailsByPartId",
+    "time": {
+      "start": 1603882542096,
+      "stop": 1603882545123,
+      "duration": 3027
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "77adfaee2d9f566c",
+    "name": "CompanyFinancialSegmentCompanyID",
+    "time": {
+      "start": 1603882490184,
+      "stop": 1603882492737,
+      "duration": 2553
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d2c22d35cd649b0b",
+    "name": "CompanyKeyPersonsByCompanyID",
+    "time": {
+      "start": 1603882498095,
+      "stop": 1603882500110,
+      "duration": 2015
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "e98684467cd6a16f",
+    "name": "ModifyUploadedParts_DELETE_WithoutDynamicData",
+    "time": {
+      "start": 1603882600455,
+      "stop": 1603882602316,
+      "duration": 1861
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7df40a0bf7462222",
+    "name": "CompanyDistributorsDataBySupplierName",
+    "time": {
+      "start": 1603882479757,
+      "stop": 1603882482163,
+      "duration": 2406
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "16be3eaa0b9d482f",
+    "name": "ParametricFeaturesByProductID",
+    "time": {
+      "start": 1603882547174,
+      "stop": 1603882549064,
+      "duration": 1890
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b0aba8fe35fe6ce0",
+    "name": "GetCompanyFinancialDataByName",
+    "time": {
+      "start": 1603882534235,
+      "stop": 1603882536241,
+      "duration": 2006
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "34b7815cf5028a53",
+    "name": "POST_ModifyUploadedParts_DELETE_GeneralKey",
+    "time": {
+      "start": 1603882596623,
+      "stop": 1603882598501,
+      "duration": 1878
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "83b752afff5d786c",
+    "name": "PartDataByKeySearch_PartConfig",
+    "time": {
+      "start": 1603882549071,
+      "stop": 1603882552483,
+      "duration": 3412
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "8716585f0aacb9c3",
+    "name": "CompanyKeyPersonsByCompanyID",
+    "time": {
+      "start": 1603882500118,
+      "stop": 1603882502334,
+      "duration": 2216
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "12fe28c604821a54",
+    "name": "GetCompanyLitigationsByCompanyID",
+    "time": {
+      "start": 1603882502379,
+      "stop": 1603882504425,
+      "duration": 2046
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d5981fb539c76486",
+    "name": "ProductLineList",
+    "time": {
+      "start": 1603882575293,
+      "stop": 1603882579823,
+      "duration": 4530
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "6b10afd60a65c6f0",
+    "name": "PartDetailsBySearchCustom_EmptyInput",
+    "time": {
+      "start": 1603882561040,
+      "stop": 1603882562966,
+      "duration": 1926
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "efa788d0fcff3bba",
+    "name": "GComplianceDatainXMLByPartId",
+    "time": {
+      "start": 1603882521258,
+      "stop": 1603882524170,
+      "duration": 2912
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "3428fd04020075a3",
+    "name": "PartDataByKeySearch",
+    "time": {
+      "start": 1603882588168,
+      "stop": 1603882590058,
+      "duration": 1890
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "dcc4ae59a2bfbcfc",
+    "name": "CompanyProfileByCompanyID",
+    "time": {
+      "start": 1603882512756,
+      "stop": 1603882514646,
+      "duration": 1890
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "de0d8288dee8c1b2",
+    "name": "GetCompanySECFilingDateByCompanyID",
+    "time": {
+      "start": 1603882538264,
+      "stop": 1603882542083,
+      "duration": 3819
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "e2bdc5613fef06ac",
+    "name": "CompanyDirectorsByCompanyID",
+    "time": {
+      "start": 1603882474944,
+      "stop": 1603882476957,
+      "duration": 2013
+    },
+    "status": "failed",
+    "severity": "normal"
+  },
+  {
+    "uid": "1de4525079254a7c",
+    "name": "CompanyComplianceDataBySupplierName",
+    "time": {
+      "start": 1603882470660,
+      "stop": 1603882472865,
+      "duration": 2205
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "be3fc7dee446f24a",
+    "name": "CompanyDetailsByName",
+    "time": {
+      "start": 1603882472884,
+      "stop": 1603882474933,
+      "duration": 2049
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "2ca6318cac3394cb",
+    "name": "PartDetailsBySearchCustom",
+    "time": {
+      "start": 1603882567862,
+      "stop": 1603882572093,
+      "duration": 4231
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d74a8611f49c1ff9",
+    "name": "CompanyPatentsByCompanyID",
+    "time": {
+      "start": 1603882510608,
+      "stop": 1603882512748,
+      "duration": 2140
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "691c1436f6908373",
+    "name": "ModifyUploadedParts_ADD_WithoutDynamicData",
+    "time": {
+      "start": 1603882594735,
+      "stop": 1603882596614,
+      "duration": 1879
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "99e207a180aa0c50",
+    "name": "POST_PartDataWithParametricFilters",
+    "time": {
+      "start": 1603882602322,
+      "stop": 1603882604957,
+      "duration": 2635
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "be3c97200a87997d",
+    "name": "ValidateUploadedParts_NotFoundStatus",
+    "time": {
+      "start": 1603882604968,
+      "stop": 1603882606854,
+      "duration": 1886
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "3229c44b7a427e15",
+    "name": "GetCompanyCompetitorsByCompanyID",
+    "time": {
+      "start": 1603882467773,
+      "stop": 1603882470640,
+      "duration": 2867
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f95abd67c67f43eb",
+    "name": "CompanyValidationByCompanyName",
+    "time": {
+      "start": 1603882519101,
+      "stop": 1603882521246,
+      "duration": 2145
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "bd33e974c704b0ec",
+    "name": "ComplianceWithCMByPartID_PartConfig",
+    "time": {
+      "start": 1603882524181,
+      "stop": 1603882526224,
+      "duration": 2043
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "ee552d042d237ea4",
+    "name": "GetSiteProfileBySiteID",
+    "time": {
+      "start": 1603882579837,
+      "stop": 1603882582296,
+      "duration": 2459
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "21c6b8eb90450123",
+    "name": "GetCrossDataByPartId",
+    "time": {
+      "start": 1603882529611,
+      "stop": 1603882534227,
+      "duration": 4616
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "52dad892308ff773",
+    "name": "ComplianceWithCMByPartID",
+    "time": {
+      "start": 1603882526231,
+      "stop": 1603882529598,
+      "duration": 3367
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f88cf48838076a63",
+    "name": "ValidateUploadedParts2",
+    "time": {
+      "start": 1603882608724,
+      "stop": 1603882610599,
+      "duration": 1875
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d6f6b6162fb4c330",
+    "name": "ValidateUploadedParts",
+    "time": {
+      "start": 1603882606860,
+      "stop": 1603882608718,
+      "duration": 1858
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "2416a3af877b3829",
+    "name": "CompanySupplyChainByCompanyID",
+    "time": {
+      "start": 1603882517041,
+      "stop": 1603882519093,
+      "duration": 2052
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9b942ea3cfea4b4b",
+    "name": "UpdatedPartWithinDateRange",
+    "time": {
+      "start": 1603882585727,
+      "stop": 1603882588161,
+      "duration": 2434
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d2c03c71cda76db",
+    "name": "CompanyLocationsByCompanyID",
+    "time": {
+      "start": 1603882504432,
+      "stop": 1603882506621,
+      "duration": 2189
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "e26b6e567b6df925",
+    "name": "GetCompanyFinancialKeyStatsByCompanyID",
+    "time": {
+      "start": 1603882484738,
+      "stop": 1603882487760,
+      "duration": 3022
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "ecc8b386672a1cd8",
+    "name": "PartValidation",
+    "time": {
+      "start": 1603882572107,
+      "stop": 1603882575284,
+      "duration": 3177
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "35ac5759af7c55ff",
+    "name": "GetChemicalDataByPartID",
+    "time": {
+      "start": 1603882459746,
+      "stop": 1603882464779,
+      "duration": 5033
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "339cc5313c59b29a",
+    "name": "_UpdatedPartDataWithinDateRange",
+    "time": {
+      "start": 1603882582304,
+      "stop": 1603882585714,
+      "duration": 3410
+    },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "uid": "ecc8b386672a1cd8",
+  "name": "PartValidation",
+  "fullName": "Com.APIs.PartDataSearch.GET_PartValidation_TC010.PartValidation",
+  "historyId": "3577d3de6a84eb6b8a5054657e7dcd07",
+  "time": {
+    "start": 1603882572107,
+    "stop": 1603882575284,
+    "duration": 3177
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.PartDataSearch.GET_PartValidation_TC010"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.PartDataSearch.GET_PartValidation_TC010"
+    },
+    {
+      "name": "testMethod",
+      "value": "PartValidation"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.PartDataSearch.GET_PartValidation_TC010"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "ecc8b386672a1cd8.json",
+  "parameterValues": []
+}

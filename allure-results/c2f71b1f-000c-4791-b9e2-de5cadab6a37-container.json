@@ -1,0 +1,12 @@
+{
+  "uuid": "c2f71b1f-000c-4791-b9e2-de5cadab6a37",
+  "name": "Com.APIs.PartDataSearch.GET_InventoryDetailsByPartId_015",
+  "children": [
+    "4ba58e58-4287-40b8-97f2-2a28da28c2ac"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459559,
+  "stop": 1603882610771
+}

@@ -1,0 +1,61 @@
+{
+  "name": "GetCompanyFinancialKeyStatsByCompanyID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882484738,
+  "stop": 1603882487760,
+  "uuid": "fc946ab8-12e6-4bcd-ab6a-5c679a6eac31",
+  "historyId": "88694e7c03e78ce1745425a5d4d2b0ff",
+  "fullName": "Com.APIs.Company.GET_CompanyFinancialKeyStatsByCompanyID_TC029.GetCompanyFinancialKeyStatsByCompanyID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyFinancialKeyStatsByCompanyID_TC029"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyFinancialKeyStatsByCompanyID_TC029"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetCompanyFinancialKeyStatsByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyFinancialKeyStatsByCompanyID_TC029"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

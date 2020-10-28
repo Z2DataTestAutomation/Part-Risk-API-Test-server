@@ -1,0 +1,61 @@
+{
+  "name": "CompanySupplyChainByCompanyID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882517041,
+  "stop": 1603882519093,
+  "uuid": "f2e360a3-052e-4638-a2ea-838a65ea1fa8",
+  "historyId": "9ffc6c28f79d531077be86d694720dd",
+  "fullName": "Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015.CompanySupplyChainByCompanyID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015"
+    },
+    {
+      "name": "testMethod",
+      "value": "CompanySupplyChainByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanySupplyChainByCompanyID_TC015"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

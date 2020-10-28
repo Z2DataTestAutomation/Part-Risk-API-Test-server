@@ -1,0 +1,12 @@
+{
+  "uuid": "bef90ffe-29e3-4eab-be97-01e6050d4bb8",
+  "name": "Com.APIs.Company.GET_CompanyComplinceDataBySupplier_TC002",
+  "children": [
+    "efd98b72-454c-44df-bc11-088af78fb96c"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1603882459556,
+  "stop": 1603882610631
+}

@@ -1,0 +1,61 @@
+{
+  "name": "GetCompanyExecutivesByCompanyID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1603882482182,
+  "stop": 1603882484723,
+  "uuid": "75b657c7-3f3a-4d89-a480-7f779e1faa2d",
+  "historyId": "2e6ba3043e0df7a1c5b95a19616f9999",
+  "fullName": "Com.APIs.Company.GET_CompanyExecutivesByCompanyID_TC023.GetCompanyExecutivesByCompanyID",
+  "labels": [
+    {
+      "name": "package",
+      "value": "Com.APIs.Company.GET_CompanyExecutivesByCompanyID_TC023"
+    },
+    {
+      "name": "testClass",
+      "value": "Com.APIs.Company.GET_CompanyExecutivesByCompanyID_TC023"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetCompanyExecutivesByCompanyID"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "APIs"
+    },
+    {
+      "name": "subSuite",
+      "value": "Com.APIs.Company.GET_CompanyExecutivesByCompanyID_TC023"
+    },
+    {
+      "name": "host",
+      "value": "Muhammad-Sultan-LP"
+    },
+    {
+      "name": "thread",
+      "value": "816@Muhammad-Sultan-LP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}
