@@ -14,7 +14,7 @@ public class GET_CompanyRelationshipsByCompanyID_TC009 extends config {
                 .then()
                 .statusCode(200).statusLine("HTTP/1.1 200 OK")
                 .header("Content-Type", "application/json; charset=utf-8")
-                .body("numFound", equalTo(42)).log().all();
+                .body("numFound", equalTo(43)).log().all();
     }
 
 }
