@@ -15,6 +15,6 @@ public class GET_CompanyCompetitorsByCompanyID_TC008 extends config {
                 .then()
                 .statusCode(200).statusLine("HTTP/1.1 200 OK")
                 .header("Content-Type", "application/json; charset=utf-8")
-                .body("numFound", equalTo(50)).log().all();
+                .body("numFound", equalTo(52)).log().all();
     }
 }
