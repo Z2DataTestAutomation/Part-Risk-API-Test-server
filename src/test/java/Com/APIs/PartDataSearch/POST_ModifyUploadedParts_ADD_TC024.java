@@ -6,9 +6,10 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class POST_ModifyUploadedParts_ADD_TC024 extends config {
-
+ @Test
     public void ModifyUploadedParts_ADD() {
         RestAssured.baseURI = url;
         RequestSpecification request = RestAssured.given();
