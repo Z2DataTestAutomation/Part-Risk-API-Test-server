@@ -10,7 +10,8 @@ public class GET_CompanyKeyPersonsByCompanyID_TC020 extends config {
     public void CompanyKeyPersonsByCompanyID() {
 
         given().when()
-                .get(url + '/' + "/api/CompanyDataSearch/GetCompanyKeyPersonsByCompanyID?Apikey=" + API_Key
+                .get(url + '/' + "/api/CompanyDataSearch/GetCompanyKeyPersonsByCompanyID?Apikey="
+                        + API_Key
                         + "&CompanyID=1006096")
                 .then().statusCode(200).statusLine("HTTP/1.1 200 OK")
                 .header("Content-Type", "application/json; charset=utf-8").and()

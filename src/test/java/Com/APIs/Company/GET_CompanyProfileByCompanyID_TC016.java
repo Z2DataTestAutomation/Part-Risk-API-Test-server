@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 public class GET_CompanyProfileByCompanyID_TC016 extends config {
 
     @Test
-    public void CompanyProfileByCompanyID() {
+    public void CompanyProfileByCompanyID_1006096() {
 
         given().when()
                 .get(url + '/' + "/api/CompanyDataSearch/GetCompanyProfileByCompanyID?Apikey=" + API_Key

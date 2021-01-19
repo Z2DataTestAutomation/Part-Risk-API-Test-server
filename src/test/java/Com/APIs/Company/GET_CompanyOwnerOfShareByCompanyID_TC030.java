@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 public class GET_CompanyOwnerOfShareByCompanyID_TC030 extends config {
 
     @Test
-    public void GetCompanyOwnerOfShareByCompanyID() {
+    public void GetCompanyOwnerOfShareByCompanyID_1005070() {
 
 
         given().when()

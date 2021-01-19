@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 
 public class GET_CompanyExecutivesByCompanyID_TC023 extends config {
     @Test
-    public void GetCompanyExecutivesByCompanyID() {
+    public void GetCompanyExecutivesByCompanyID_1005070() {
 
         given().when()
                 .get(url + '/' + "/api/CompanyDataSearch/GetCompanyExecutivesByCompanyID?Apikey=" + API_Key

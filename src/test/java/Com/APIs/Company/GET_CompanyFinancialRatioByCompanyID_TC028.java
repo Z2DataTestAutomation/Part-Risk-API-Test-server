@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 public class GET_CompanyFinancialRatioByCompanyID_TC028 extends config {
 
     @Test
-    public void GetCompanyFinancialRatioByCompanyID() {
+    public void GetCompanyFinancialRatioByCompanyID_1005070() {
 
         given().when()
                 .get(url + '/' + "/api/CompanyDataSearch/GetCompanyFinancialRatioByCompanyID?Apikey=" + API_Key + "&CompanyID=1005070")

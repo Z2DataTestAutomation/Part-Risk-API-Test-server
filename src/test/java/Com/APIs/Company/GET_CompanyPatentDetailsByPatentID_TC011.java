@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 public class GET_CompanyPatentDetailsByPatentID_TC011 extends config {
 
     @Test
-    public void CompanyPatentDetailsByPatentID() {
+    public void CompanyPatentDetailsByPatentID_25383627() {
 
         given().when()
                 .get(url + '/' + "/api/CompanyDataSearch/GetCompanyPatentDetailsByPatentID?Apikey="
@@ -16,7 +16,8 @@ public class GET_CompanyPatentDetailsByPatentID_TC011 extends config {
                 .then()
                 .statusCode(200).statusLine("HTTP/1.1 200 OK")
                 .header("Content-Type", "application/json; charset=utf-8")
-                .body("results.PatentID[0]", Is.is(25383627)).and().body("results.PatentTitle[0]", Is.is("Pitch multiplication process")).log().all();
+                .body("results.PatentID[0]", Is.is(25383627)).and()
+                .body("results.PatentTitle[0]", Is.is("Pitch multiplication process")).log().all();
     }
 
 }

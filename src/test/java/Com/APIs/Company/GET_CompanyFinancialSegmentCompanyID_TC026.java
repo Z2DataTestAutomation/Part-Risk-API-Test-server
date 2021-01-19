@@ -8,10 +8,11 @@ import static io.restassured.RestAssured.given;
 public class GET_CompanyFinancialSegmentCompanyID_TC026 extends config {
 
     @Test
-    public void CompanyFinancialSegmentCompanyID() {
+    public void CompanyFinancialSegmentCompanyID_1005070() {
 
         given().when()
-                .get(url + '/' + "/api/CompanyDataSearch/GetCompanyFinancialSegmentByCompanyID?Apikey=" + API_Key + "&CompanyID=1005070")
+                .get(url + '/' + "/api/CompanyDataSearch/GetCompanyFinancialSegmentByCompanyID?Apikey="
+                        + API_Key + "&CompanyID=1005070")
                 .then().statusCode(200).statusLine("HTTP/1.1 200 OK")
                 .header("Content-Type", "application/json; charset=utf-8").and()
                 .body("results.CompanyID[0]", Is.is(1005070)).and()
