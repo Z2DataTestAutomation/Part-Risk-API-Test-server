@@ -21,5 +21,10 @@
       <option name="name" value="bintray-SHAFT_ENGINE" />
       <option name="url" value="https://dl.bintray.com/mohabmohie/SHAFT" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="jenkins-ci-releases" />
+      <option name="name" value="jenkins-ci-releases" />
+      <option name="url" value="https://repo.jenkins-ci.org/releases/" />
+    </remote-repository>
   </component>
 </project>
