@@ -33,7 +33,7 @@ public class GET_ChemicalDataByPartID_TC020 extends config {
                 .body("numFound" , equalTo(0)).and()
                 .body("pageNumber" , equalTo(1)).and()
                 .body("results",Matchers.hasSize(0)).and()
-                .body("status" , equalTo("OK")).and().log().all();
+                .body("status" , equalTo("OK")).log().all();
 
     }
 }
